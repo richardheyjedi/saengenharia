@@ -1,0 +1,32 @@
+{
+  "name": "sa-engenharia-landing-page",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "npm run lint && npm run build",
+    "audit:responsive": "node scripts/responsive-audit.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "globals": "latest",
+    "playwright-core": "^1.63.0",
+    "typescript-eslint": "latest"
+  }
+}
