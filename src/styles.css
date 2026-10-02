@@ -4,15 +4,15 @@
   background: #f6f5f1;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  --navy: #102b3f;
-  --navy-soft: #183a52;
-  --accent: #176b87;
+  --navy: #60725e;
+  --navy-soft: #71816e;
+  --accent: #405640;
   --cream: #f6f5f1;
   --white: #fff;
   --ink: #202020;
   --muted: #657078;
-  --sage: #778876;
-  --line: rgba(16, 43, 63, 0.16);
+  --sage: #60725e;
+  --line: rgba(96, 114, 94, 0.18);
   --scroll-progress: 0;
 }
 
@@ -119,7 +119,7 @@ a {
 }
 
 .eyebrow--light {
-  color: #a9c7d2;
+  color: #c7d0c4;
 }
 
 .button {
@@ -168,8 +168,8 @@ a {
 }
 
 .button--light:hover {
-  border-color: #a9c7d2;
-  background: #a9c7d2;
+  border-color: #c7d0c4;
+  background: #c7d0c4;
 }
 
 .text-link {
@@ -186,7 +186,7 @@ a {
   position: sticky;
   z-index: 50;
   top: 0;
-  border-bottom: 1px solid rgba(16, 43, 63, 0.1);
+  border-bottom: 1px solid rgba(96, 114, 94, 0.14);
   background: rgba(246, 245, 241, 0.93);
   backdrop-filter: blur(14px);
 }
@@ -220,7 +220,7 @@ a {
   height: 42px;
   place-items: center;
   overflow: hidden;
-  background: #202020;
+  background: transparent;
 }
 
 .brand__mark img {
@@ -311,8 +311,8 @@ a {
   right: 0;
   width: 31%;
   height: 100%;
-  border-left: 1px solid rgba(16, 43, 63, 0.08);
-  background-image: linear-gradient(rgba(16, 43, 63, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(16, 43, 63, 0.05) 1px, transparent 1px);
+  border-left: 1px solid rgba(96, 114, 94, 0.11);
+  background-image: linear-gradient(rgba(96, 114, 94, 0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(96, 114, 94, 0.07) 1px, transparent 1px);
   background-size: 42px 42px;
   content: '';
 }
@@ -384,7 +384,7 @@ a {
   right: -30px;
   width: 84%;
   height: 64%;
-  border: 1px solid rgba(23, 107, 135, 0.38);
+  border: 1px solid rgba(64, 86, 64, 0.38);
 }
 
 .hero__image-wrap {
@@ -438,7 +438,7 @@ a {
   justify-content: center;
   gap: 10px;
   background: var(--white);
-  box-shadow: 0 18px 50px rgba(16, 43, 63, 0.15);
+  box-shadow: 0 18px 50px rgba(58, 72, 57, 0.17);
   color: var(--navy);
 }
 
@@ -460,7 +460,7 @@ a {
   position: absolute;
   top: 50%;
   right: -96px;
-  color: rgba(16, 43, 63, 0.5);
+  color: rgba(96, 114, 94, 0.68);
   font-size: 0.56rem;
   letter-spacing: 0.14em;
   transform: rotate(90deg);
@@ -571,7 +571,7 @@ a {
   width: 94px;
   height: 94px;
   place-items: center;
-  border: 1px solid #88a5b0;
+  border: 1px solid #b7c4b4;
   border-radius: 50%;
   background: var(--navy);
 }
@@ -602,7 +602,7 @@ a {
 }
 
 .management h2 em {
-  color: #a9c7d2;
+  color: #c7d0c4;
 }
 
 .management__content > p {
@@ -638,7 +638,7 @@ a {
 
 .benefit-list svg {
   flex: 0 0 auto;
-  color: #a9c7d2;
+  color: #c7d0c4;
 }
 
 .section-heading {
@@ -912,7 +912,7 @@ a {
 }
 
 .audience-list article > span {
-  color: #8db1bd;
+  color: #c0cbc0;
   font-size: 0.58rem;
   letter-spacing: 0.12em;
 }
@@ -1016,7 +1016,7 @@ a {
   z-index: -1;
   top: 60px;
   right: -90px;
-  color: rgba(16, 43, 63, 0.025);
+  color: rgba(96, 114, 94, 0.04);
   font-family: Georgia, serif;
   font-size: 24rem;
   letter-spacing: -0.25em;
@@ -1212,7 +1212,7 @@ a {
 
 .contact__note svg {
   flex: 0 0 auto;
-  color: #a9c7d2;
+  color: #c7d0c4;
 }
 
 .contact-form {
@@ -1267,7 +1267,7 @@ a {
 .field select:focus,
 .field textarea:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(23, 107, 135, 0.12);
+  box-shadow: 0 0 0 3px rgba(64, 86, 64, 0.14);
   outline: none;
 }
 
@@ -1304,7 +1304,7 @@ a {
 
 .footer {
   padding: 72px 0 26px;
-  background: #0b1e2c;
+  background: #283329;
   color: var(--white);
 }
 
@@ -1335,7 +1335,7 @@ a {
 
 .footer__column > span {
   margin-bottom: 11px;
-  color: #91aeb8;
+  color: #b9c6b7;
   font-size: 0.58rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -1892,9 +1892,9 @@ a {
   position: absolute;
   inset: 0;
   overflow: hidden;
-  border: 1px solid rgba(16, 43, 63, 0.24);
-  background-color: #e5eae7;
-  background-image: linear-gradient(rgba(16, 43, 63, 0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(16, 43, 63, 0.07) 1px, transparent 1px);
+  border: 1px solid rgba(96, 114, 94, 0.28);
+  background-color: #e7ece5;
+  background-image: linear-gradient(rgba(96, 114, 94, 0.09) 1px, transparent 1px), linear-gradient(90deg, rgba(96, 114, 94, 0.09) 1px, transparent 1px);
   background-size: 30px 30px;
 }
 
@@ -1906,7 +1906,7 @@ a {
 
 .hero__blueprint::before {
   inset: 62px 30px 30px;
-  border: 1px solid rgba(16, 43, 63, 0.18);
+  border: 1px solid rgba(96, 114, 94, 0.22);
 }
 
 .hero__blueprint::after {
@@ -1914,7 +1914,7 @@ a {
   left: -10%;
   width: 120%;
   height: 1px;
-  background: rgba(23, 107, 135, 0.44);
+  background: rgba(64, 86, 64, 0.48);
   transform: rotate(-24deg);
 }
 
@@ -1929,7 +1929,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 0 18px;
-  border-bottom: 1px solid rgba(16, 43, 63, 0.2);
+  border-bottom: 1px solid rgba(96, 114, 94, 0.24);
   background: rgba(246, 245, 241, 0.7);
   color: var(--navy);
   font-size: 0.55rem;
@@ -1960,7 +1960,7 @@ a {
 .hero__axis {
   position: absolute;
   z-index: 2;
-  color: rgba(16, 43, 63, 0.57);
+  color: rgba(64, 86, 64, 0.72);
   font-size: 0.5rem;
   font-weight: 600;
   letter-spacing: 0.13em;
@@ -1974,7 +1974,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding-top: 7px;
-  border-top: 1px solid rgba(16, 43, 63, 0.34);
+  border-top: 1px solid rgba(96, 114, 94, 0.45);
 }
 
 .hero__axis--y {
@@ -1982,7 +1982,7 @@ a {
   bottom: 72px;
   left: 42px;
   padding-left: 7px;
-  border-left: 1px solid rgba(16, 43, 63, 0.34);
+  border-left: 1px solid rgba(96, 114, 94, 0.45);
   writing-mode: vertical-rl;
 }
 
@@ -1992,7 +1992,7 @@ a {
   left: 50%;
   width: 66%;
   aspect-ratio: 1;
-  border: 1px solid rgba(23, 107, 135, 0.35);
+  border: 1px solid rgba(64, 86, 64, 0.38);
   border-radius: 50%;
   transform: translate(-50%, -48%);
 }
@@ -2000,7 +2000,7 @@ a {
 .hero__circle::after {
   position: absolute;
   inset: 16%;
-  border: 1px dashed rgba(16, 43, 63, 0.2);
+  border: 1px dashed rgba(96, 114, 94, 0.3);
   border-radius: inherit;
   content: '';
 }
@@ -2083,7 +2083,7 @@ a {
   justify-content: space-between;
   padding: 15px 18px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.17);
-  color: #a9c7d2;
+  color: #c7d0c4;
   font-size: 0.55rem;
   letter-spacing: 0.11em;
   text-transform: uppercase;
@@ -2095,7 +2095,7 @@ a {
   left: 50%;
   width: 61%;
   aspect-ratio: 1;
-  border: 1px dashed rgba(169, 199, 210, 0.42);
+  border: 1px dashed rgba(199, 208, 196, 0.48);
   border-radius: 50%;
   transform: translate(-50%, -50%);
 }
@@ -2109,7 +2109,7 @@ a {
   width: 126px;
   aspect-ratio: 1;
   place-content: center;
-  border: 1px solid #a9c7d2;
+  border: 1px solid #c7d0c4;
   border-radius: 50%;
   background: var(--navy);
   text-align: center;
@@ -2123,7 +2123,7 @@ a {
 
 .management__diagram-core small {
   margin-top: 4px;
-  color: #a9c7d2;
+  color: #c7d0c4;
   font-size: 0.48rem;
   letter-spacing: 0.11em;
   text-transform: uppercase;
@@ -2145,7 +2145,7 @@ a {
 }
 
 .management__diagram-item span {
-  color: #a9c7d2;
+  color: #c7d0c4;
   font-size: 0.48rem;
 }
 
@@ -2167,7 +2167,7 @@ a {
 .work-carousel {
   padding: 126px 0 138px;
   overflow: clip;
-  background: #e8edeb;
+  background: #e8ede7;
 }
 
 .work-carousel__header {
@@ -2204,7 +2204,7 @@ a {
   width: 48px;
   height: 48px;
   place-items: center;
-  border: 1px solid rgba(16, 43, 63, 0.26);
+  border: 1px solid rgba(96, 114, 94, 0.32);
   border-radius: 0;
   background: transparent;
   color: var(--navy);
@@ -2224,8 +2224,8 @@ a {
 .work-carousel__viewport {
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(16, 43, 63, 0.2);
-  background-color: #0c2231;
+  border: 1px solid rgba(96, 114, 94, 0.28);
+  background-color: #253127;
   background-image: linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
   background-size: 44px 44px;
 }
@@ -2263,7 +2263,7 @@ a {
 }
 
 .work-carousel__slide figcaption span {
-  color: #89aeba;
+  color: #b7c4b4;
   font-size: 0.58rem;
   letter-spacing: 0.12em;
 }
@@ -2283,7 +2283,7 @@ a {
   height: 100%;
   flex-direction: column;
   border-left: 1px solid rgba(255, 255, 255, 0.14);
-  background: rgba(8, 29, 42, 0.88);
+  background: rgba(37, 49, 39, 0.92);
 }
 
 .work-carousel__rail button {
@@ -2304,7 +2304,7 @@ a {
   bottom: 0;
   left: 0;
   width: 3px;
-  background: #8fb1bc;
+  background: #b7c4b4;
   content: '';
   transform: scaleY(0);
   transition: transform 220ms ease;

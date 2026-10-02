@@ -70,7 +70,7 @@ function usePageEffects() {
 function Logo({ footer = false }: { footer?: boolean }) {
   return (
     <a className={`brand ${footer ? 'brand--footer' : ''}`} href="#inicio" aria-label="S.A Engenharia — início">
-      <span className="brand__mark"><img src={siteConfig.images.logo} width="465" height="584" alt="" /></span>
+      <span className="brand__mark"><img src={siteConfig.images.logo} width="1119" height="1406" alt="" /></span>
       <span className="brand__text"><strong>S.A</strong><span>Engenharia</span></span>
     </a>
   )

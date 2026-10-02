@@ -42,7 +42,7 @@ export const siteConfig = {
   ],
   values: ['Experiência', 'Qualidade de entrega', 'Relacionamento', 'Responsabilidade'],
   images: {
-    logo: '/images/logo-sa.png',
+    logo: '/images/logo-sa-transparent.png',
     carousel: [
       {
         src: '/images/obra-alvenaria.jpg',
