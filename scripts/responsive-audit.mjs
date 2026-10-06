@@ -2,7 +2,7 @@ import { mkdir } from 'node:fs/promises'
 import { chromium } from 'playwright-core'
 
 const executablePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
-const baseURL = 'http://127.0.0.1:4174'
+const baseURL = process.env.AUDIT_BASE_URL ?? 'http://127.0.0.1:4174'
 const outputDir = new URL('../audit-output/', import.meta.url)
 
 await mkdir(outputDir, { recursive: true })
@@ -12,6 +12,7 @@ const results = []
 
 for (const device of [
   { name: 'desktop', width: 1440, height: 1000 },
+  { name: 'tablet', width: 768, height: 900 },
   { name: 'mobile', width: 360, height: 800 },
 ]) {
   const page = await browser.newPage({ viewport: { width: device.width, height: device.height }, deviceScaleFactor: 1 })
@@ -35,6 +36,8 @@ for (const device of [
   await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }))
   await page.waitForTimeout(250)
   await page.screenshot({ path: new URL(`${device.name}.png`, outputDir).pathname.slice(1), fullPage: true })
+  await page.locator('.reference-hero').screenshot({ path: new URL(`${device.name}-hero.png`, outputDir).pathname.slice(1) })
+  await page.locator('.reference-gallery').screenshot({ path: new URL(`${device.name}-gallery.png`, outputDir).pathname.slice(1) })
 
   const baseChecks = await page.evaluate(() => {
     const actions = [...document.querySelectorAll('button, a.button')]
@@ -55,41 +58,30 @@ for (const device of [
     }
   })
 
-  const carouselBefore = await page.locator('.work-carousel__track').getAttribute('style')
-  const slideCount = await page.locator('.work-carousel__slide').count()
-  const loadedSlides = []
-  for (let index = 0; index < slideCount; index += 1) {
-    const activeImage = page.locator('.work-carousel__slide[aria-hidden="false"] img')
-    await activeImage.waitFor({ state: 'visible' })
-    loadedSlides.push(await activeImage.evaluate((image) => image.complete && image.naturalWidth > 0))
-    if (index < slideCount - 1) {
-      await page.getByRole('button', { name: 'Próxima imagem' }).click()
-      await page.waitForTimeout(720)
-    }
-  }
-  const carouselAfter = await page.locator('.work-carousel__track').getAttribute('style')
-  const carousel = {
-    slideCount,
-    advancesWithControl: carouselBefore !== carouselAfter,
-    allSlidesLoaded: loadedSlides.every(Boolean),
-    activeIndicatorCount: await page.locator('.work-carousel__rail .is-active').count(),
-  }
+  const galleryCards = page.locator('.reference-gallery__card')
+  const galleryCount = await galleryCards.count()
+  const allGalleryImagesLoaded = await galleryCards.locator('img').evaluateAll((images) => images.every((image) => image.complete && image.naturalWidth > 0))
+  await galleryCards.first().click()
+  const lightboxOpened = await page.locator('.reference-lightbox').isVisible()
+  await page.getByRole('button', { name: 'Fechar galeria' }).click()
+  const lightboxClosed = await page.locator('.reference-lightbox').count() === 0
+  const gallery = { galleryCount, allGalleryImagesLoaded, lightboxOpened, lightboxClosed }
 
   let mobileMenu = null
-  if (device.name === 'mobile') {
+  if (device.width <= 860) {
     await page.getByRole('button', { name: 'Abrir menu' }).click()
     await page.waitForTimeout(250)
-    mobileMenu = await page.locator('#main-menu').evaluate((menu) => ({
+    mobileMenu = await page.locator('#reference-main-menu').evaluate((menu) => ({
       visible: getComputedStyle(menu).opacity === '1',
       expanded: document.querySelector('.menu-button')?.getAttribute('aria-expanded'),
     }))
-    await page.locator('#main-menu a[href="#servicos"]').click()
+    await page.locator('#reference-main-menu a[href="#servicos"]').click()
     await page.waitForTimeout(350)
     mobileMenu.afterNavigationHash = await page.evaluate(() => location.hash)
     mobileMenu.bodyLockedAfterNavigation = await page.evaluate(() => document.body.classList.contains('menu-open'))
   }
 
-  results.push({ device, ...baseChecks, carousel, mobileMenu, missingResources, consoleErrors })
+  results.push({ device, ...baseChecks, gallery, mobileMenu, missingResources, consoleErrors })
   await page.close()
 }
 

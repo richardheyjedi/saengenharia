@@ -4,12 +4,13 @@ import {
   ArrowRight,
   ArrowUpRight,
   Check,
-  CloseIcon,
   MapPin,
-  MenuIcon,
   MessageIcon,
   Plus,
 } from './components/Icons'
+import { ReferenceGallery } from './components/ReferenceGallery'
+import { ReferenceHeader } from './components/ReferenceHeader'
+import { ReferenceHero } from './components/ReferenceHero'
 
 type AnalyticsEvent = 'cta_click' | 'whatsapp_open'
 
@@ -77,53 +78,7 @@ function Logo({ footer = false }: { footer?: boolean }) {
 }
 
 function Header() {
-  const [open, setOpen] = useState(false)
-
-  useEffect(() => {
-    document.body.classList.toggle('menu-open', open)
-    return () => document.body.classList.remove('menu-open')
-  }, [open])
-
-  useEffect(() => {
-    const onEscape = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') setOpen(false)
-    }
-    window.addEventListener('keydown', onEscape)
-    return () => window.removeEventListener('keydown', onEscape)
-  }, [])
-
-  const closeMenu = () => setOpen(false)
-
-  return (
-    <header className="site-header">
-      <div className="scroll-progress" aria-hidden="true" />
-      <div className="container header__inner">
-        <Logo />
-        <nav className={`nav ${open ? 'nav--open' : ''}`} aria-label="Navegação principal" id="main-menu">
-          {siteConfig.navigation.map((item) => (
-            <a key={item.href} href={item.href} onClick={closeMenu}>{item.label}</a>
-          ))}
-          <a
-            className="button button--small nav__cta"
-            href="#contato"
-            onClick={() => { closeMenu(); trackEvent('cta_click', { location: 'header' }) }}
-          >
-            Solicitar avaliação <ArrowUpRight size={17} />
-          </a>
-        </nav>
-        <button
-          className="menu-button"
-          type="button"
-          aria-expanded={open}
-          aria-controls="main-menu"
-          aria-label={open ? 'Fechar menu' : 'Abrir menu'}
-          onClick={() => setOpen((value) => !value)}
-        >
-          {open ? <CloseIcon /> : <MenuIcon />}
-        </button>
-      </div>
-    </header>
-  )
+  return <ReferenceHeader />
 }
 
 function SectionHeading({ eyebrow, title, text, light = false }: { eyebrow: string; title: string; text?: string; light?: boolean }) {
@@ -137,49 +92,7 @@ function SectionHeading({ eyebrow, title, text, light = false }: { eyebrow: stri
 }
 
 function Hero() {
-  return (
-    <section className="hero" id="inicio">
-      <div className="container hero__grid">
-        <div className="hero__content" data-reveal>
-          <span className="eyebrow"><span aria-hidden="true">—</span> Engenharia que acompanha</span>
-          <h1>Sua obra com gerenciamento técnico e decisões <em>mais claras.</em></h1>
-          <p className="hero__lead">
-            A S.A Engenharia atua em gerenciamento de obras, vistorias, projetos e consultoria para apoiar cada etapa do seu imóvel ou construção.
-          </p>
-          <div className="hero__location"><MapPin size={18} /> São Paulo capital, Grande São Paulo e Uberaba/MG.</div>
-          <div className="hero__actions">
-            <a className="button" href="#contato" onClick={() => trackEvent('cta_click', { location: 'hero', label: 'avaliar_obra' })}>
-              Quero avaliar minha obra <ArrowUpRight />
-            </a>
-            <a className="text-link" href="#servicos">Conhecer os serviços <ArrowRight /></a>
-          </div>
-        </div>
-
-        <div className="hero__visual hero__visual--technical" data-reveal aria-hidden="true">
-          <div className="hero__blueprint">
-            <div className="hero__blueprint-head">
-              <span>Gerenciamento técnico</span>
-              <span>SA · 04</span>
-            </div>
-            <div className="hero__monogram">S<span>A</span></div>
-            <div className="hero__axis hero__axis--x"><span>clareza</span><span>orientação</span></div>
-            <div className="hero__axis hero__axis--y">organização</div>
-            <div className="hero__circle" />
-            <div className="hero__corner hero__corner--one" />
-            <div className="hero__corner hero__corner--two" />
-          </div>
-          <div className="hero__experience">
-            <strong>{siteConfig.yearsInBusiness}</strong>
-            <span>anos de<br />atuação</span>
-          </div>
-          <span className="hero__coordinate">PLANTA · ETAPA · DECISÃO</span>
-        </div>
-      </div>
-      <div className="hero__footer container" aria-hidden="true">
-        <span>01</span><div /><span>Role para explorar</span>
-      </div>
-    </section>
-  )
+  return <ReferenceHero onCtaClick={(label) => trackEvent('cta_click', { location: 'hero', label })} />
 }
 
 function Management() {
@@ -261,79 +174,8 @@ function Services() {
   )
 }
 
-function WorkCarousel() {
-  const [current, setCurrent] = useState(0)
-  const [paused, setPaused] = useState(false)
-  const slides = siteConfig.images.carousel
-
-  useEffect(() => {
-    if (paused || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
-    const timer = window.setInterval(() => {
-      setCurrent((index) => (index + 1) % slides.length)
-    }, 5200)
-    return () => window.clearInterval(timer)
-  }, [paused, slides.length])
-
-  const goTo = (index: number) => setCurrent((index + slides.length) % slides.length)
-
-  return (
-    <section
-      className="work-carousel"
-      aria-labelledby="work-carousel-title"
-      onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => setPaused(false)}
-      onFocusCapture={() => setPaused(true)}
-      onBlurCapture={() => setPaused(false)}
-    >
-      <div className="container">
-        <div className="work-carousel__header" data-reveal>
-          <div>
-            <span className="eyebrow"><span aria-hidden="true">—</span> Registros de obra</span>
-            <h2 id="work-carousel-title">Observar cada etapa também faz parte do processo.</h2>
-          </div>
-          <div className="work-carousel__header-side">
-            <p>Imagens fornecidas pela S.A Engenharia, reunidas em um único registro visual.</p>
-            <div className="work-carousel__arrows">
-              <button type="button" onClick={() => goTo(current - 1)} aria-label="Imagem anterior"><ArrowRight /></button>
-              <button type="button" onClick={() => goTo(current + 1)} aria-label="Próxima imagem"><ArrowRight /></button>
-            </div>
-          </div>
-        </div>
-
-        <div className="work-carousel__viewport" data-reveal aria-live="polite">
-          <div className="work-carousel__track" style={{ transform: `translateX(-${current * 100}%)` }}>
-            {slides.map((slide, index) => (
-              <figure className="work-carousel__slide" key={slide.src} aria-hidden={index !== current}>
-                <img
-                  src={slide.src}
-                  width={slide.width}
-                  height={slide.height}
-                  alt={index === current ? slide.alt : ''}
-                  loading={index === 0 ? 'eager' : 'lazy'}
-                />
-                <figcaption>
-                  <span>{String(index + 1).padStart(2, '0')} / {String(slides.length).padStart(2, '0')}</span>
-                  <strong>{slide.label}</strong>
-                </figcaption>
-              </figure>
-            ))}
-          </div>
-          <div className="work-carousel__rail" aria-label="Selecionar imagem">
-            {slides.map((slide, index) => (
-              <button
-                type="button"
-                key={slide.src}
-                className={index === current ? 'is-active' : ''}
-                onClick={() => goTo(index)}
-                aria-label={`Exibir imagem ${index + 1}: ${slide.label}`}
-                aria-current={index === current ? 'true' : undefined}
-              ><span>{String(index + 1).padStart(2, '0')}</span></button>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-  )
+function ProjectGallery() {
+  return <ReferenceGallery />
 }
 
 function Audiences() {
@@ -363,13 +205,23 @@ function About() {
   return (
     <section className="about section" id="sobre">
       <div className="container about__grid">
+        <figure className="about__media" data-reveal>
+          <img
+            src={siteConfig.images.gallery[2].src}
+            width={siteConfig.images.gallery[2].width}
+            height={siteConfig.images.gallery[2].height}
+            alt={siteConfig.images.gallery[2].alt}
+            loading="lazy"
+          />
+          <figcaption>Precisão em cada etapa da entrega.</figcaption>
+        </figure>
         <div className="about__title" data-reveal>
           <span className="eyebrow"><span aria-hidden="true">—</span> Sobre a S.A Engenharia</span>
           <h2>Uma trajetória que acompanha a evolução das obras.</h2>
         </div>
         <div className="about__story" data-reveal>
           <p className="about__lead">
-            A S.A Engenharia atua há <strong>4 anos.</strong> Iniciou sua trajetória com vistorias e projetos e, ao longo do tempo, desenvolveu um foco crescente em gerenciamento de obras.
+            A S.A Engenharia atua há <strong>{siteConfig.yearsInBusiness} anos.</strong> Iniciou sua trajetória com vistorias e projetos e, ao longo do tempo, desenvolveu um foco crescente em gerenciamento de obras.
           </p>
           <p>
             Essa evolução orienta um trabalho atento às necessidades de quem precisa compreender melhor o imóvel, a execução e as decisões envolvidas em cada etapa.
@@ -606,9 +458,9 @@ export default function App() {
       <Header />
       <main id="conteudo">
         <Hero />
-        <Management />
         <Services />
-        <WorkCarousel />
+        <ProjectGallery />
+        <Management />
         <Audiences />
         <About />
         <Regions />
