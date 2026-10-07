@@ -37,6 +37,7 @@ for (const device of [
   await page.waitForTimeout(250)
   await page.screenshot({ path: new URL(`${device.name}.png`, outputDir).pathname.slice(1), fullPage: true })
   await page.locator('.reference-hero').screenshot({ path: new URL(`${device.name}-hero.png`, outputDir).pathname.slice(1) })
+  await page.locator('.technical-gallery').screenshot({ path: new URL(`${device.name}-technical-gallery.png`, outputDir).pathname.slice(1) })
   await page.locator('.reference-gallery').screenshot({ path: new URL(`${device.name}-gallery.png`, outputDir).pathname.slice(1) })
 
   const baseChecks = await page.evaluate(() => {
@@ -67,6 +68,15 @@ for (const device of [
   const lightboxClosed = await page.locator('.reference-lightbox').count() === 0
   const gallery = { galleryCount, allGalleryImagesLoaded, lightboxOpened, lightboxClosed }
 
+  const technicalCards = page.locator('.technical-project')
+  const technicalProjectCount = await technicalCards.count()
+  const allTechnicalImagesLoaded = await technicalCards.locator('img').evaluateAll((images) => images.every((image) => image.complete && image.naturalWidth > 0))
+  await technicalCards.first().click()
+  const technicalLightboxOpened = await page.locator('.technical-lightbox').isVisible()
+  await page.getByRole('button', { name: 'Fechar projetos 3D' }).click()
+  const technicalLightboxClosed = await page.locator('.technical-lightbox').count() === 0
+  const technicalGallery = { technicalProjectCount, allTechnicalImagesLoaded, technicalLightboxOpened, technicalLightboxClosed }
+
   let mobileMenu = null
   if (device.width <= 860) {
     await page.getByRole('button', { name: 'Abrir menu' }).click()
@@ -81,7 +91,7 @@ for (const device of [
     mobileMenu.bodyLockedAfterNavigation = await page.evaluate(() => document.body.classList.contains('menu-open'))
   }
 
-  results.push({ device, ...baseChecks, gallery, mobileMenu, missingResources, consoleErrors })
+  results.push({ device, ...baseChecks, gallery, technicalGallery, mobileMenu, missingResources, consoleErrors })
   await page.close()
 }
 

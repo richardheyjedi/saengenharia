@@ -11,6 +11,7 @@ import {
 import { ReferenceGallery } from './components/ReferenceGallery'
 import { ReferenceHeader } from './components/ReferenceHeader'
 import { ReferenceHero } from './components/ReferenceHero'
+import { TechnicalProjectsGallery } from './components/TechnicalProjectsGallery'
 
 type AnalyticsEvent = 'cta_click' | 'whatsapp_open'
 
@@ -460,6 +461,7 @@ export default function App() {
         <Hero />
         <Services />
         <ProjectGallery />
+        <TechnicalProjectsGallery />
         <Management />
         <Audiences />
         <About />
