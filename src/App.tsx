@@ -460,8 +460,9 @@ export default function App() {
       <main id="conteudo">
         <Hero />
         <Services />
+        <TechnicalProjectsGallery type="autocad" />
         <ProjectGallery />
-        <TechnicalProjectsGallery />
+        <TechnicalProjectsGallery type="3d" />
         <Management />
         <Audiences />
         <About />

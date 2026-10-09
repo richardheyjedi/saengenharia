@@ -4,8 +4,15 @@ import { ArrowRight, CloseIcon, Plus } from './Icons'
 
 const padNumber = (value: number) => String(value).padStart(2, '0')
 
-export function TechnicalProjectsGallery() {
-  const projects = siteConfig.images.technicalProjects
+type TechnicalProjectsGalleryProps = {
+  type: 'autocad' | '3d'
+}
+
+export function TechnicalProjectsGallery({ type }: TechnicalProjectsGalleryProps) {
+  const isAutocad = type === 'autocad'
+  const projects = isAutocad ? siteConfig.images.autocadProjects : siteConfig.images.technicalProjects
+  const sectionId = isAutocad ? 'projetos-autocad' : 'projetos-3d'
+  const titleId = `${sectionId}-title`
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null)
   const closeButtonRef = useRef<HTMLButtonElement>(null)
 
@@ -43,19 +50,20 @@ export function TechnicalProjectsGallery() {
   const activeProject = selectedIndex === null ? null : projects[selectedIndex]
 
   return (
-    <section className="technical-gallery" id="projetos-3d" aria-labelledby="technical-gallery-title">
+    <section className="technical-gallery" id={sectionId} aria-labelledby={titleId}>
       <div className="technical-gallery__blueprint" aria-hidden="true" />
       <div className="container">
         <header className="technical-gallery__header" data-reveal>
           <div>
-            <span className="eyebrow eyebrow--light"><span aria-hidden="true">—</span> Projetos em AutoCAD e visualização 3D</span>
-            <h2 id="technical-gallery-title">Antes da obra, cada espaço pode ser visto por inteiro.</h2>
+            <span className="eyebrow eyebrow--light"><span aria-hidden="true">—</span> {isAutocad ? 'Projetos em AutoCAD' : 'Visualização 3D'}</span>
+            <h2 id={titleId}>{isAutocad ? 'Precisão técnica em cada detalhe do projeto.' : 'Antes da obra, cada espaço pode ser visto por inteiro.'}</h2>
           </div>
           <div className="technical-gallery__intro">
-            <span>04 estudos</span>
+            <span>{String(projects.length).padStart(2, '0')} estudos</span>
             <p>
-              Modelos tridimensionais ajudam a compreender proporções, circulação e soluções
-              antes da execução, tornando as decisões mais claras.
+              {isAutocad
+                ? 'Plantas, cortes e fachadas organizam as informações necessárias para orientar cada etapa da execução.'
+                : 'Modelos tridimensionais ajudam a compreender proporções, circulação e soluções antes da execução.'}
             </p>
           </div>
         </header>
@@ -104,7 +112,7 @@ export function TechnicalProjectsGallery() {
             className="reference-lightbox__close"
             type="button"
             onClick={() => setSelectedIndex(null)}
-            aria-label="Fechar projetos 3D"
+            aria-label={isAutocad ? 'Fechar projetos em AutoCAD' : 'Fechar projetos 3D'}
           >
             <CloseIcon />
           </button>
