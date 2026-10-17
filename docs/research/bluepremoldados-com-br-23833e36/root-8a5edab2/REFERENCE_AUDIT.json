@@ -1,0 +1,2272 @@
+{
+  "url": "https://www.bluepremoldados.com.br/",
+  "capturedAt": "2026-10-06T18:13:51.123Z",
+  "viewports": {
+    "desktop": {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "topState": {
+        "className": "site-header ",
+        "position": "fixed",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "height": 92,
+        "boxShadow": "none",
+        "transform": "none",
+        "transition": "background-color 0.35s, box-shadow 0.35s, height 0.35s"
+      },
+      "scrolledState": {
+        "className": "site-header is-solid",
+        "position": "fixed",
+        "background": "rgba(0, 28, 42, 0.96) none repeat scroll 0% 0% / auto padding-box border-box",
+        "height": 72,
+        "boxShadow": "rgba(255, 255, 255, 0.08) 0px 1px 0px 0px",
+        "transform": "none",
+        "transition": "background-color 0.35s, box-shadow 0.35s, height 0.35s"
+      },
+      "sectionShots": [
+        "desktop-section-01.png",
+        "desktop-section-02.png",
+        "desktop-section-03.png",
+        "desktop-section-04.png",
+        "desktop-section-05.png",
+        "desktop-section-06.png",
+        "desktop-section-07.png",
+        "desktop-section-08.png",
+        "desktop-section-09.png",
+        "desktop-section-10.png",
+        "desktop-section-11.png",
+        "desktop-section-12.png",
+        "desktop-section-13.png"
+      ],
+      "consoleErrors": [],
+      "title": "Blue Premoldados | Construções e Pré-Moldados na PB e RN",
+      "lang": "pt-BR",
+      "dimensions": {
+        "scrollWidth": 1440,
+        "scrollHeight": 10202,
+        "viewportWidth": 1440
+      },
+      "styles": {
+        "body": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(12, 43, 57)",
+          "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "header": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "main": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(12, 43, 57)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "h1": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "101.6px",
+          "fontWeight": "760",
+          "lineHeight": "92.456px",
+          "letterSpacing": "-7.112px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "h2": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "64px",
+          "fontWeight": "740",
+          "lineHeight": "65.28px",
+          "letterSpacing": "-3.52px",
+          "color": "rgb(0, 28, 42)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "p": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "18.72px",
+          "fontWeight": "400",
+          "lineHeight": "31.824px",
+          "letterSpacing": "normal",
+          "color": "rgb(213, 227, 232)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "26px 0px 0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "a": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 28, 42)",
+          "background": "rgb(240, 190, 91) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "10px 16px",
+          "margin": "0px",
+          "borderRadius": "0px 0px 6px 6px",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0.08) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "50%",
+          "textTransform": "none"
+        }
+      },
+      "fonts": [
+        "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "\"Sora Variable\", Sora, sans-serif"
+      ],
+      "colors": [
+        "rgb(0, 0, 0)",
+        "rgb(229, 231, 235)",
+        "rgb(12, 43, 57)",
+        "rgb(255, 255, 255)",
+        "rgb(0, 28, 42)",
+        "rgb(240, 190, 91)",
+        "rgba(255, 255, 255, 0.82)",
+        "rgba(0, 0, 0, 0.08)",
+        "rgba(255, 255, 255, 0.32)",
+        "rgb(4, 168, 198)",
+        "rgb(229, 231, 235) rgb(229, 231, 235) rgb(229, 231, 235) rgba(4, 168, 198, 0.35)",
+        "rgb(201, 238, 245)",
+        "rgb(213, 227, 232)",
+        "rgba(0, 28, 42, 0.18)",
+        "rgba(255, 255, 255, 0.25) rgb(229, 231, 235)",
+        "rgb(159, 219, 230)",
+        "rgb(255, 255, 255) rgb(229, 231, 235) rgb(229, 231, 235) rgba(255, 255, 255, 0.2)",
+        "rgb(37, 211, 102)",
+        "rgba(255, 255, 255, 0.03)",
+        "rgba(255, 255, 255, 0.34)",
+        "rgb(245, 245, 245)",
+        "rgb(3, 110, 151)",
+        "rgb(92, 111, 120)",
+        "rgba(255, 255, 255, 0.94)",
+        "rgba(0, 28, 42, 0.14)",
+        "rgb(130, 148, 156)",
+        "rgb(229, 231, 235) rgb(229, 231, 235) rgb(4, 168, 198)",
+        "rgba(0, 28, 42, 0.14) rgb(229, 231, 235) rgb(229, 231, 235)",
+        "rgb(249, 251, 251)",
+        "rgb(131, 147, 154)",
+        "rgb(184, 212, 220)",
+        "rgba(255, 255, 255, 0.42)",
+        "rgba(0, 28, 42, 0.58)",
+        "rgba(255, 255, 255, 0.38)",
+        "rgba(255, 255, 255, 0.88)",
+        "rgba(0, 28, 42, 0.13)"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Estruturas fortes.Obras que avançam."
+        },
+        {
+          "tag": "H2",
+          "text": "Tudo o que sua obraprecisa para avançar."
+        },
+        {
+          "tag": "H3",
+          "text": "Produtos"
+        },
+        {
+          "tag": "H3",
+          "text": "Construções"
+        },
+        {
+          "tag": "H3",
+          "text": "Serviços"
+        },
+        {
+          "tag": "H2",
+          "text": "Estruturas paradiferentes projetos."
+        },
+        {
+          "tag": "H3",
+          "text": "Galpões"
+        },
+        {
+          "tag": "H3",
+          "text": "Prédios"
+        },
+        {
+          "tag": "H3",
+          "text": "Casas"
+        },
+        {
+          "tag": "H3",
+          "text": "Do projeto especial à produção no canteiro."
+        },
+        {
+          "tag": "H2",
+          "text": "Estruturas queganham forma."
+        },
+        {
+          "tag": "H3",
+          "text": "Maquetes eletrônicas."
+        },
+        {
+          "tag": "H2",
+          "text": "Uma obra mais ágil,enxuta e eficiente."
+        },
+        {
+          "tag": "H3",
+          "text": "Redução de mão de obra"
+        },
+        {
+          "tag": "H3",
+          "text": "Menos tempo de obra"
+        },
+        {
+          "tag": "H3",
+          "text": "Redução do custo da obra"
+        },
+        {
+          "tag": "H3",
+          "text": "Menos desperdício"
+        },
+        {
+          "tag": "H3",
+          "text": "Maior margem de lucro"
+        },
+        {
+          "tag": "H2",
+          "text": "Precisão em cada peça.Confiança em toda a estrutura."
+        },
+        {
+          "tag": "H2",
+          "text": "Experiência que se transformaem estruturas sólidas."
+        },
+        {
+          "tag": "H2",
+          "text": "Vamos falar sobreo seu projeto?"
+        }
+      ],
+      "navigation": [
+        {
+          "text": "BluePremoldados",
+          "href": "https://www.bluepremoldados.com.br/#inicio"
+        },
+        {
+          "text": "Início",
+          "href": "https://www.bluepremoldados.com.br/#inicio"
+        },
+        {
+          "text": "Soluções",
+          "href": "https://www.bluepremoldados.com.br/#solucoes"
+        },
+        {
+          "text": "Diferenciais",
+          "href": "https://www.bluepremoldados.com.br/#diferenciais"
+        },
+        {
+          "text": "Empresa",
+          "href": "https://www.bluepremoldados.com.br/#empresa"
+        },
+        {
+          "text": "Galeria",
+          "href": "https://www.bluepremoldados.com.br/#galeria"
+        },
+        {
+          "text": "Contato",
+          "href": "https://www.bluepremoldados.com.br/#contato"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "https://wa.me/5584982007766?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fbrand-mark-white.png&w=48&q=75",
+          "alt": "",
+          "width": 48,
+          "height": 62,
+          "loading": "auto"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fhero-structure.webp&w=1920&q=75",
+          "alt": "Estrutura editorial de concreto pré-moldado em montagem",
+          "width": 1254,
+          "height": 705,
+          "loading": "auto"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fservice-galpoes.webp&w=640&q=75",
+          "alt": "Estrutura editorial de galpão pré-moldado em construção",
+          "width": 475,
+          "height": 594,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fservice-predios.webp&w=640&q=75",
+          "alt": "Estrutura editorial de prédio pré-moldado em construção",
+          "width": 475,
+          "height": 594,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fservice-casas.webp&w=640&q=75",
+          "alt": "Estrutura editorial de residência pré-moldada em construção",
+          "width": 475,
+          "height": 594,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-01.jpg&w=1920&q=75",
+          "alt": "Montagem de estrutura pré-moldada com pilares, vigas, caminhão e equipe em obra",
+          "width": 1033,
+          "height": 581,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Finstalacao-pilares-01.jpg&w=1920&q=75",
+          "alt": "Pilares pré-moldados sendo posicionados com auxílio de caminhão munck",
+          "width": 1033,
+          "height": 581,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-02.jpg&w=3840&q=75",
+          "alt": "Estrutura pré-moldada com pilares, vigas e peça sendo içada em obra",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-urbana-01.jpg&w=3840&q=75",
+          "alt": "Conjunto de pilares e vigas pré-moldadas em área urbana",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-cobertura-01.jpg&w=3840&q=75",
+          "alt": "Edificação pré-moldada com cobertura e fechamento lateral em execução",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-urbana-02.jpg&w=3840&q=75",
+          "alt": "Estrutura de concreto pré-moldado com pilares e vigas entre edificações",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-estacionamento-01.jpg&w=3840&q=75",
+          "alt": "Estrutura pré-moldada utilizada em área coberta de estacionamento",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-local-01.jpg&w=3840&q=75",
+          "alt": "Pilares e vigas pré-moldadas instalados em canteiro de obra",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-01.jpg&w=1920&q=75",
+          "alt": "",
+          "width": 73,
+          "height": 41,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Finstalacao-pilares-01.jpg&w=1920&q=75",
+          "alt": "",
+          "width": 73,
+          "height": 41,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-02.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-urbana-01.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 66,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-cobertura-01.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-urbana-02.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-estacionamento-01.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-local-01.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-01.jpg&w=1920&q=75",
+          "alt": "Maquete eletrônica de estrutura pré-moldada multipavimentos com estacionamento",
+          "width": 656,
+          "height": 384,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-02.jpg&w=1920&q=75",
+          "alt": "Vista lateral de maquete eletrônica com pilares, vigas e lajes pré-moldadas",
+          "width": 649,
+          "height": 395,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-03.jpg&w=3840&q=75",
+          "alt": "Vista elevada de modelo estrutural multipavimentos em concreto pré-moldado",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-fachada.jpg&w=3840&q=75",
+          "alt": "Maquete eletrônica da fachada de edifício residencial com quatro pavimentos",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-perspectiva.jpg&w=3840&q=75",
+          "alt": "Perspectiva eletrônica de edifício residencial com varandas e terraço",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-estudo.jpg&w=3840&q=75",
+          "alt": "Modelo eletrônico de edifício residencial visto em perspectiva lateral",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-01.jpg&w=1920&q=75",
+          "alt": "",
+          "width": 46,
+          "height": 27,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-02.jpg&w=1920&q=75",
+          "alt": "",
+          "width": 46,
+          "height": 28,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-03.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 52,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-fachada.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 114,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-perspectiva.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 75,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-estudo.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 68,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-01.jpg&w=1920&q=75",
+          "alt": "Equipe trabalhando na montagem de uma estrutura pré-moldada",
+          "width": 600,
+          "height": 337,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fbrand-mark-white.png&w=48&q=75",
+          "alt": "",
+          "width": 48,
+          "height": 62,
+          "loading": "auto"
+        }
+      ],
+      "backgroundImages": [
+        {
+          "element": "div.mobile-menu__grid",
+          "value": "linear-gradient(rgba(4, 168, 198, 0.5) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgba(4, 168, 198, 0.5) 1px, rgba(0, 0, 0, 0) 1px)"
+        },
+        {
+          "element": "div.hero__overlay",
+          "value": "linear-gradient(90deg, rgba(0, 28, 42, 0.78) 0%, rgba(0, 28, 42, 0.52) 43%, rgba(0, 28, 42, 0.04) 100%), linear-gradient(rgba(0, 0, 0, 0) 46%, rgba(0, 28, 42, 0.32))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "div.company-video__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.12), rgba(0, 0, 0, 0) 35%, rgba(0, 28, 42, 0.32))"
+        }
+      ],
+      "videos": [],
+      "favicons": [
+        {
+          "href": "https://www.bluepremoldados.com.br/icon.png?icon.3hl1bs5yudqdb.png",
+          "sizes": "512x512"
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "section",
+          "id": "inicio",
+          "className": "hero hero--compact",
+          "top": 0,
+          "height": 880,
+          "background": "rgb(0, 28, 42) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(255, 255, 255)",
+          "headings": [
+            "Estruturas fortes.Obras que avançam."
+          ],
+          "textSample": "Construção e peças pré-moldadasEstruturas fortes.Obras que avançam.Soluções pré-moldadas para projetos residenciais, comerciais e industriais na Paraíba e no Rio Grande do Norte.AtuaçãoParaíba e Rio Grande do NorteSedesParnamirim/RN e Cabedelo/PB Falar no WhatsAppConhecer soluções"
+        },
+        {
+          "index": 1,
+          "tag": "section",
+          "id": "solucoes",
+          "className": "solutions-overview section",
+          "top": 880,
+          "height": 899.484375,
+          "background": "rgb(245, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Tudo o que sua obraprecisa para avançar.",
+            "Produtos",
+            "Construções",
+            "Serviços"
+          ],
+          "textSample": "Nossas soluçõesTudo o que sua obraprecisa para avançar.Produtos, construções e serviços reunidos para atender projetos de diferentes escalas e necessidades.01ProdutosTubosPisos intertravadosMeio-fioMurosLixeiras e bancos pré-moldadosBlocosTesouras gigantesSolicitar orçamento 02ConstruçõesGalpõesPrédiosCasas pré-moldadasCondomínios logísticosSolicitar orçamento 03ServiçosTerceirização de peças pré-moldadasFabricação dentro da obraFormas para pré-moldadosCorte e dobra de aço — vergalhões e chapasS"
+        },
+        {
+          "index": 2,
+          "tag": "section",
+          "id": "construcoes",
+          "className": "services section",
+          "top": 1779.484375,
+          "height": 1785.578125,
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Estruturas paradiferentes projetos.",
+            "Galpões",
+            "Prédios",
+            "Casas",
+            "Do projeto especial à produção no canteiro."
+          ],
+          "textSample": "SoluçõesEstruturas paradiferentes projetos.Construção especializada e componentes de concreto reunidos em uma solução objetiva.GalpõesEstruturas para operações comerciais, industriais, logísticas e agrícolas.Solicitar orçamento PrédiosSistemas pré-moldados para projetos que pedem organização e precisão.Solicitar orçamento CasasSoluções residenciais resistentes com processos construtivos mais eficientes.Solicitar orçamento Peças pré-moldadasComponentes para sustentar e organizar sua obra.Tubos de"
+        },
+        {
+          "index": 3,
+          "tag": "section",
+          "id": "galeria",
+          "className": "gallery section section--soft",
+          "top": 3565.0625,
+          "height": 2426.640625,
+          "background": "rgb(245, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Estruturas queganham forma.",
+            "Maquetes eletrônicas."
+          ],
+          "textSample": "GaleriaEstruturas queganham forma.Registros de montagem, execução e aplicação das soluções pré-moldadas da Blue.Estrutura em execuçãoMontagem estruturalEtapa de montagemInstalação de pilaresExecução no canteiroEncaixe das peçasSistema pré-moldadoEstrutura em evoluçãoObra em andamentoCobertura e fechamentoEstrutura urbanaPrecisão construtivaCobertura pré-moldadaEstrutura aplicadaNova estruturaBase para avançar01 / 08Projetos em 3DMaquetes eletrônicas.Representações digitais de projetos estruturai"
+        },
+        {
+          "index": 4,
+          "tag": "section",
+          "id": "diferenciais",
+          "className": "benefits-compact dark-section section",
+          "top": 5991.703125,
+          "height": 927.640625,
+          "background": "rgb(0, 28, 42) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(255, 255, 255)",
+          "headings": [
+            "Uma obra mais ágil,enxuta e eficiente.",
+            "Redução de mão de obra",
+            "Menos tempo de obra",
+            "Redução do custo da obra",
+            "Menos desperdício",
+            "Maior margem de lucro"
+          ],
+          "textSample": "Vantagens dos pré-moldadosUma obra mais ágil,enxuta e eficiente.A industrialização da estrutura reduz etapas no canteiro e cria condições para executar com mais controle.01Menos etapas no canteiroRedução de mão de obraA execução pré-moldada elimina etapas artesanais e reduz a necessidade de equipes durante a fase estrutural.02Até ≈ 50% no estruturalMenos tempo de obraCom projeto bem elaborado, uma fase estrutural prevista para seis meses pode ser concluída em cerca de três a quatro meses.03Custo"
+        },
+        {
+          "index": 5,
+          "tag": "section",
+          "id": "empresa",
+          "className": "about-compact section",
+          "top": 6919.34375,
+          "height": 838,
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Precisão em cada peça.Confiança em toda a estrutura."
+          ],
+          "textSample": "Sobre a BluePrecisão em cada peça.Confiança em toda a estrutura.Há mais de 15 anos, a Blue Premoldados atua na fabricação de peças, em construções e em serviços especializados para diferentes necessidades construtivas.Atendemos projetos na Paraíba e no Rio Grande do Norte com foco em qualidade, eficiência e atendimento próximo.Ver estruturas em obra"
+        },
+        {
+          "index": 6,
+          "tag": "section",
+          "id": "",
+          "className": "company-video section dark-section",
+          "top": 7757.34375,
+          "height": 1166.53125,
+          "background": "rgb(0, 28, 42) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(255, 255, 255)",
+          "headings": [
+            "Experiência que se transformaem estruturas sólidas."
+          ],
+          "textSample": "Conheça a BlueExperiência que se transformaem estruturas sólidas.Pausar"
+        },
+        {
+          "index": 7,
+          "tag": "section",
+          "id": "contato",
+          "className": "contact section",
+          "top": 8923.875,
+          "height": 921.265625,
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Vamos falar sobreo seu projeto?"
+          ],
+          "textSample": "Solicite um orçamentoVamos falar sobreo seu projeto?Envie os dados principais da obra. A equipe retornará para entender a necessidade e orientar os próximos passos.Atendimento diretoConversar pelo WhatsAppNome *Telefone ou WhatsApp *Cidade *Estado *SelecioneParaíbaRio Grande do NorteOutroTipo de projeto *Selecione uma opçãoGalpãoPrédioCasaPeças pré-moldadasPiso intertravadoOutroMensagem *Concordo com o uso dos dados para retorno desta solicitação, conforme a Política de Privacidade.Solicitar orç"
+        }
+      ],
+      "hasLenis": false
+    },
+    "tablet": {
+      "name": "tablet",
+      "width": 768,
+      "height": 900,
+      "topState": {
+        "className": "site-header ",
+        "position": "fixed",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "height": 82,
+        "boxShadow": "none",
+        "transform": "none",
+        "transition": "background-color 0.35s, box-shadow 0.35s, height 0.35s"
+      },
+      "scrolledState": {
+        "className": "site-header is-solid",
+        "position": "fixed",
+        "background": "rgba(0, 28, 42, 0.96) none repeat scroll 0% 0% / auto padding-box border-box",
+        "height": 72,
+        "boxShadow": "rgba(255, 255, 255, 0.08) 0px 1px 0px 0px",
+        "transform": "none",
+        "transition": "background-color 0.35s, box-shadow 0.35s, height 0.35s"
+      },
+      "sectionShots": [],
+      "consoleErrors": [],
+      "title": "Blue Premoldados | Construções e Pré-Moldados na PB e RN",
+      "lang": "pt-BR",
+      "dimensions": {
+        "scrollWidth": 768,
+        "scrollHeight": 10157,
+        "viewportWidth": 768
+      },
+      "styles": {
+        "body": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(12, 43, 57)",
+          "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "header": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "main": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(12, 43, 57)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "h1": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "70.656px",
+          "fontWeight": "760",
+          "lineHeight": "64.297px",
+          "letterSpacing": "-4.94592px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "h2": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "35.328px",
+          "fontWeight": "740",
+          "lineHeight": "36.0346px",
+          "letterSpacing": "-1.94304px",
+          "color": "rgb(0, 28, 42)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "p": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "15.68px",
+          "fontWeight": "400",
+          "lineHeight": "26.656px",
+          "letterSpacing": "normal",
+          "color": "rgb(213, 227, 232)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "26px 0px 0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "a": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 28, 42)",
+          "background": "rgb(240, 190, 91) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "10px 16px",
+          "margin": "0px",
+          "borderRadius": "0px 0px 6px 6px",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0.08) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "50%",
+          "textTransform": "none"
+        }
+      },
+      "fonts": [
+        "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "\"Sora Variable\", Sora, sans-serif"
+      ],
+      "colors": [
+        "rgb(0, 0, 0)",
+        "rgb(229, 231, 235)",
+        "rgb(12, 43, 57)",
+        "rgb(255, 255, 255)",
+        "rgb(0, 28, 42)",
+        "rgb(240, 190, 91)",
+        "rgba(0, 0, 0, 0.08)",
+        "rgba(255, 255, 255, 0.32)",
+        "rgb(4, 168, 198)",
+        "rgb(201, 238, 245)",
+        "rgb(213, 227, 232)",
+        "rgba(0, 28, 42, 0.18)",
+        "rgba(255, 255, 255, 0.25) rgb(229, 231, 235)",
+        "rgb(159, 219, 230)",
+        "rgb(255, 255, 255) rgb(229, 231, 235) rgb(229, 231, 235) rgba(255, 255, 255, 0.2)",
+        "rgb(37, 211, 102)",
+        "rgba(255, 255, 255, 0.03)",
+        "rgba(255, 255, 255, 0.34)",
+        "rgb(245, 245, 245)",
+        "rgb(3, 110, 151)",
+        "rgb(92, 111, 120)",
+        "rgba(255, 255, 255, 0.94)",
+        "rgba(0, 28, 42, 0.14)",
+        "rgb(130, 148, 156)",
+        "rgb(229, 231, 235) rgb(229, 231, 235) rgb(4, 168, 198)",
+        "rgba(0, 28, 42, 0.14) rgb(229, 231, 235) rgb(229, 231, 235)",
+        "rgb(249, 251, 251)",
+        "rgb(131, 147, 154)",
+        "rgb(184, 212, 220)",
+        "rgba(255, 255, 255, 0.42)",
+        "rgba(0, 28, 42, 0.58)",
+        "rgba(255, 255, 255, 0.38)",
+        "rgba(255, 255, 255, 0.88)",
+        "rgba(0, 28, 42, 0.13)"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Estruturas fortes.Obras que avançam."
+        },
+        {
+          "tag": "H2",
+          "text": "Tudo o que sua obraprecisa para avançar."
+        },
+        {
+          "tag": "H3",
+          "text": "Produtos"
+        },
+        {
+          "tag": "H3",
+          "text": "Construções"
+        },
+        {
+          "tag": "H3",
+          "text": "Serviços"
+        },
+        {
+          "tag": "H2",
+          "text": "Estruturas paradiferentes projetos."
+        },
+        {
+          "tag": "H3",
+          "text": "Galpões"
+        },
+        {
+          "tag": "H3",
+          "text": "Prédios"
+        },
+        {
+          "tag": "H3",
+          "text": "Casas"
+        },
+        {
+          "tag": "H3",
+          "text": "Do projeto especial à produção no canteiro."
+        },
+        {
+          "tag": "H2",
+          "text": "Estruturas queganham forma."
+        },
+        {
+          "tag": "H3",
+          "text": "Maquetes eletrônicas."
+        },
+        {
+          "tag": "H2",
+          "text": "Uma obra mais ágil,enxuta e eficiente."
+        },
+        {
+          "tag": "H3",
+          "text": "Redução de mão de obra"
+        },
+        {
+          "tag": "H3",
+          "text": "Menos tempo de obra"
+        },
+        {
+          "tag": "H3",
+          "text": "Redução do custo da obra"
+        },
+        {
+          "tag": "H3",
+          "text": "Menos desperdício"
+        },
+        {
+          "tag": "H3",
+          "text": "Maior margem de lucro"
+        },
+        {
+          "tag": "H2",
+          "text": "Precisão em cada peça.Confiança em toda a estrutura."
+        },
+        {
+          "tag": "H2",
+          "text": "Experiência que se transformaem estruturas sólidas."
+        },
+        {
+          "tag": "H2",
+          "text": "Vamos falar sobreo seu projeto?"
+        }
+      ],
+      "navigation": [
+        {
+          "text": "BluePremoldados",
+          "href": "https://www.bluepremoldados.com.br/#inicio"
+        },
+        {
+          "text": "Início",
+          "href": "https://www.bluepremoldados.com.br/#inicio"
+        },
+        {
+          "text": "Soluções",
+          "href": "https://www.bluepremoldados.com.br/#solucoes"
+        },
+        {
+          "text": "Diferenciais",
+          "href": "https://www.bluepremoldados.com.br/#diferenciais"
+        },
+        {
+          "text": "Empresa",
+          "href": "https://www.bluepremoldados.com.br/#empresa"
+        },
+        {
+          "text": "Galeria",
+          "href": "https://www.bluepremoldados.com.br/#galeria"
+        },
+        {
+          "text": "Contato",
+          "href": "https://www.bluepremoldados.com.br/#contato"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "https://wa.me/5584982007766?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fbrand-mark-white.png&w=48&q=75",
+          "alt": "",
+          "width": 48,
+          "height": 62,
+          "loading": "auto"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fhero-structure.webp&w=828&q=75",
+          "alt": "Estrutura editorial de concreto pré-moldado em montagem",
+          "width": 768,
+          "height": 432,
+          "loading": "auto"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fservice-galpoes.webp&w=828&q=75",
+          "alt": "Estrutura editorial de galpão pré-moldado em construção",
+          "width": 768,
+          "height": 960,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fservice-predios.webp&w=828&q=75",
+          "alt": "Estrutura editorial de prédio pré-moldado em construção",
+          "width": 768,
+          "height": 960,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fservice-casas.webp&w=828&q=75",
+          "alt": "Estrutura editorial de residência pré-moldada em construção",
+          "width": 768,
+          "height": 960,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-01.jpg&w=828&q=75",
+          "alt": "Montagem de estrutura pré-moldada com pilares, vigas, caminhão e equipe em obra",
+          "width": 728,
+          "height": 409,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Finstalacao-pilares-01.jpg&w=750&q=75",
+          "alt": "Pilares pré-moldados sendo posicionados com auxílio de caminhão munck",
+          "width": 728,
+          "height": 409,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-02.jpg&w=3840&q=75",
+          "alt": "Estrutura pré-moldada com pilares, vigas e peça sendo içada em obra",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-urbana-01.jpg&w=3840&q=75",
+          "alt": "Conjunto de pilares e vigas pré-moldadas em área urbana",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-cobertura-01.jpg&w=3840&q=75",
+          "alt": "Edificação pré-moldada com cobertura e fechamento lateral em execução",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-urbana-02.jpg&w=3840&q=75",
+          "alt": "Estrutura de concreto pré-moldado com pilares e vigas entre edificações",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-estacionamento-01.jpg&w=3840&q=75",
+          "alt": "Estrutura pré-moldada utilizada em área coberta de estacionamento",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-local-01.jpg&w=3840&q=75",
+          "alt": "Pilares e vigas pré-moldadas instalados em canteiro de obra",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-01.jpg&w=828&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Finstalacao-pilares-01.jpg&w=750&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-02.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-urbana-01.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 66,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-cobertura-01.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-urbana-02.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-estacionamento-01.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-local-01.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-01.jpg&w=750&q=75",
+          "alt": "Maquete eletrônica de estrutura pré-moldada multipavimentos com estacionamento",
+          "width": 728,
+          "height": 426,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-02.jpg&w=750&q=75",
+          "alt": "Vista lateral de maquete eletrônica com pilares, vigas e lajes pré-moldadas",
+          "width": 728,
+          "height": 443,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-03.jpg&w=3840&q=75",
+          "alt": "Vista elevada de modelo estrutural multipavimentos em concreto pré-moldado",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-fachada.jpg&w=3840&q=75",
+          "alt": "Maquete eletrônica da fachada de edifício residencial com quatro pavimentos",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-perspectiva.jpg&w=3840&q=75",
+          "alt": "Perspectiva eletrônica de edifício residencial com varandas e terraço",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-estudo.jpg&w=3840&q=75",
+          "alt": "Modelo eletrônico de edifício residencial visto em perspectiva lateral",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-01.jpg&w=750&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 51,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-02.jpg&w=750&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 53,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-03.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 52,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-fachada.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 114,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-perspectiva.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 75,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-estudo.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 68,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-01.jpg&w=828&q=75",
+          "alt": "Equipe trabalhando na montagem de uma estrutura pré-moldada",
+          "width": 768,
+          "height": 432,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fbrand-mark-white.png&w=48&q=75",
+          "alt": "",
+          "width": 48,
+          "height": 62,
+          "loading": "auto"
+        }
+      ],
+      "backgroundImages": [
+        {
+          "element": "div.mobile-menu__grid",
+          "value": "linear-gradient(rgba(4, 168, 198, 0.5) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgba(4, 168, 198, 0.5) 1px, rgba(0, 0, 0, 0) 1px)"
+        },
+        {
+          "element": "div.hero__overlay",
+          "value": "linear-gradient(90deg, rgba(0, 28, 42, 0.78) 0%, rgba(0, 28, 42, 0.52) 43%, rgba(0, 28, 42, 0.04) 100%), linear-gradient(rgba(0, 0, 0, 0) 46%, rgba(0, 28, 42, 0.32))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "div.company-video__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.12), rgba(0, 0, 0, 0) 35%, rgba(0, 28, 42, 0.32))"
+        }
+      ],
+      "videos": [],
+      "favicons": [
+        {
+          "href": "https://www.bluepremoldados.com.br/icon.png?icon.3hl1bs5yudqdb.png",
+          "sizes": "512x512"
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "section",
+          "id": "inicio",
+          "className": "hero hero--compact",
+          "top": 0,
+          "height": 792,
+          "background": "rgb(0, 28, 42) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(255, 255, 255)",
+          "headings": [
+            "Estruturas fortes.Obras que avançam."
+          ],
+          "textSample": "Construção e peças pré-moldadasEstruturas fortes.Obras que avançam.Soluções pré-moldadas para projetos residenciais, comerciais e industriais na Paraíba e no Rio Grande do Norte.AtuaçãoParaíba e Rio Grande do NorteSedesParnamirim/RN e Cabedelo/PB Falar no WhatsAppConhecer soluções"
+        },
+        {
+          "index": 1,
+          "tag": "section",
+          "id": "solucoes",
+          "className": "solutions-overview section",
+          "top": 792,
+          "height": 748.59375,
+          "background": "rgb(245, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Tudo o que sua obraprecisa para avançar.",
+            "Produtos",
+            "Construções",
+            "Serviços"
+          ],
+          "textSample": "Nossas soluçõesTudo o que sua obraprecisa para avançar.Produtos, construções e serviços reunidos para atender projetos de diferentes escalas e necessidades.01ProdutosTubosPisos intertravadosMeio-fioMurosLixeiras e bancos pré-moldadosBlocosTesouras gigantesSolicitar orçamento 02ConstruçõesGalpõesPrédiosCasas pré-moldadasCondomínios logísticosSolicitar orçamento 03ServiçosTerceirização de peças pré-moldadasFabricação dentro da obraFormas para pré-moldadosCorte e dobra de aço — vergalhões e chapasS"
+        },
+        {
+          "index": 2,
+          "tag": "section",
+          "id": "construcoes",
+          "className": "services section",
+          "top": 1540.59375,
+          "height": 2499.625,
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Estruturas paradiferentes projetos.",
+            "Galpões",
+            "Prédios",
+            "Casas",
+            "Do projeto especial à produção no canteiro."
+          ],
+          "textSample": "SoluçõesEstruturas paradiferentes projetos.Construção especializada e componentes de concreto reunidos em uma solução objetiva.GalpõesEstruturas para operações comerciais, industriais, logísticas e agrícolas.Solicitar orçamento PrédiosSistemas pré-moldados para projetos que pedem organização e precisão.Solicitar orçamento CasasSoluções residenciais resistentes com processos construtivos mais eficientes.Solicitar orçamento Peças pré-moldadasComponentes para sustentar e organizar sua obra.Tubos de"
+        },
+        {
+          "index": 3,
+          "tag": "section",
+          "id": "galeria",
+          "className": "gallery section section--soft",
+          "top": 4040.21875,
+          "height": 1627.515625,
+          "background": "rgb(245, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Estruturas queganham forma.",
+            "Maquetes eletrônicas."
+          ],
+          "textSample": "GaleriaEstruturas queganham forma.Registros de montagem, execução e aplicação das soluções pré-moldadas da Blue.Estrutura em execuçãoMontagem estruturalEtapa de montagemInstalação de pilaresExecução no canteiroEncaixe das peçasSistema pré-moldadoEstrutura em evoluçãoObra em andamentoCobertura e fechamentoEstrutura urbanaPrecisão construtivaCobertura pré-moldadaEstrutura aplicadaNova estruturaBase para avançar01 / 08Projetos em 3DMaquetes eletrônicas.Representações digitais de projetos estruturai"
+        },
+        {
+          "index": 4,
+          "tag": "section",
+          "id": "diferenciais",
+          "className": "benefits-compact dark-section section",
+          "top": 5667.734375,
+          "height": 1316.28125,
+          "background": "rgb(0, 28, 42) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(255, 255, 255)",
+          "headings": [
+            "Uma obra mais ágil,enxuta e eficiente.",
+            "Redução de mão de obra",
+            "Menos tempo de obra",
+            "Redução do custo da obra",
+            "Menos desperdício",
+            "Maior margem de lucro"
+          ],
+          "textSample": "Vantagens dos pré-moldadosUma obra mais ágil,enxuta e eficiente.A industrialização da estrutura reduz etapas no canteiro e cria condições para executar com mais controle.01Menos etapas no canteiroRedução de mão de obraA execução pré-moldada elimina etapas artesanais e reduz a necessidade de equipes durante a fase estrutural.02Até ≈ 50% no estruturalMenos tempo de obraCom projeto bem elaborado, uma fase estrutural prevista para seis meses pode ser concluída em cerca de três a quatro meses.03Custo"
+        },
+        {
+          "index": 5,
+          "tag": "section",
+          "id": "empresa",
+          "className": "about-compact section",
+          "top": 6984.015625,
+          "height": 964.546875,
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Precisão em cada peça.Confiança em toda a estrutura."
+          ],
+          "textSample": "Sobre a BluePrecisão em cada peça.Confiança em toda a estrutura.Há mais de 15 anos, a Blue Premoldados atua na fabricação de peças, em construções e em serviços especializados para diferentes necessidades construtivas.Atendemos projetos na Paraíba e no Rio Grande do Norte com foco em qualidade, eficiência e atendimento próximo.Ver estruturas em obra"
+        },
+        {
+          "index": 6,
+          "tag": "section",
+          "id": "",
+          "className": "company-video section dark-section",
+          "top": 7948.5625,
+          "height": 710.5625,
+          "background": "rgb(0, 28, 42) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(255, 255, 255)",
+          "headings": [
+            "Experiência que se transformaem estruturas sólidas."
+          ],
+          "textSample": "Conheça a BlueExperiência que se transformaem estruturas sólidas.Pausar"
+        },
+        {
+          "index": 7,
+          "tag": "section",
+          "id": "contato",
+          "className": "contact section",
+          "top": 8659.125,
+          "height": 1141.671875,
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Vamos falar sobreo seu projeto?"
+          ],
+          "textSample": "Solicite um orçamentoVamos falar sobreo seu projeto?Envie os dados principais da obra. A equipe retornará para entender a necessidade e orientar os próximos passos.Atendimento diretoConversar pelo WhatsAppNome *Telefone ou WhatsApp *Cidade *Estado *SelecioneParaíbaRio Grande do NorteOutroTipo de projeto *Selecione uma opçãoGalpãoPrédioCasaPeças pré-moldadasPiso intertravadoOutroMensagem *Concordo com o uso dos dados para retorno desta solicitação, conforme a Política de Privacidade.Solicitar orç"
+        }
+      ],
+      "hasLenis": false
+    },
+    "mobile": {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "topState": {
+        "className": "site-header is-solid",
+        "position": "fixed",
+        "background": "rgba(0, 28, 42, 0.96) none repeat scroll 0% 0% / auto padding-box border-box",
+        "height": 72,
+        "boxShadow": "rgba(255, 255, 255, 0.08) 0px 1px 0px 0px",
+        "transform": "none",
+        "transition": "background-color 0.35s, box-shadow 0.35s, height 0.35s"
+      },
+      "scrolledState": {
+        "className": "site-header is-solid",
+        "position": "fixed",
+        "background": "rgba(0, 28, 42, 0.96) none repeat scroll 0% 0% / auto padding-box border-box",
+        "height": 72,
+        "boxShadow": "rgba(255, 255, 255, 0.08) 0px 1px 0px 0px",
+        "transform": "none",
+        "transition": "background-color 0.35s, box-shadow 0.35s, height 0.35s"
+      },
+      "sectionShots": [],
+      "consoleErrors": [],
+      "title": "Blue Premoldados | Construções e Pré-Moldados na PB e RN",
+      "lang": "pt-BR",
+      "dimensions": {
+        "scrollWidth": 390,
+        "scrollHeight": 13321,
+        "viewportWidth": 390
+      },
+      "styles": {
+        "body": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(12, 43, 57)",
+          "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "header": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "main": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(12, 43, 57)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "h1": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "49.6px",
+          "fontWeight": "760",
+          "lineHeight": "45.136px",
+          "letterSpacing": "-3.472px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "h2": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "33.6px",
+          "fontWeight": "740",
+          "lineHeight": "34.272px",
+          "letterSpacing": "-1.848px",
+          "color": "rgb(0, 28, 42)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "p": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "15.68px",
+          "fontWeight": "400",
+          "lineHeight": "26.656px",
+          "letterSpacing": "normal",
+          "color": "rgb(213, 227, 232)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "26px 0px 0px",
+          "borderRadius": "0px",
+          "textTransform": "none"
+        },
+        "a": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "700",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 28, 42)",
+          "background": "rgb(240, 190, 91) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "10px 16px",
+          "margin": "0px",
+          "borderRadius": "0px 0px 6px 6px",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "\"Sora Variable\", Sora, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0.08) none repeat scroll 0% 0% / auto padding-box border-box",
+          "padding": "0px",
+          "margin": "0px",
+          "borderRadius": "50%",
+          "textTransform": "none"
+        }
+      },
+      "fonts": [
+        "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "\"Sora Variable\", Sora, sans-serif"
+      ],
+      "colors": [
+        "rgb(0, 0, 0)",
+        "rgb(229, 231, 235)",
+        "rgb(12, 43, 57)",
+        "rgb(255, 255, 255)",
+        "rgb(0, 28, 42)",
+        "rgb(240, 190, 91)",
+        "rgba(0, 0, 0, 0.08)",
+        "rgba(255, 255, 255, 0.32)",
+        "rgb(4, 168, 198)",
+        "rgb(201, 238, 245)",
+        "rgb(213, 227, 232)",
+        "rgba(0, 28, 42, 0.18)",
+        "rgba(255, 255, 255, 0.25) rgb(229, 231, 235)",
+        "rgb(159, 219, 230)",
+        "rgba(255, 255, 255, 0.2) rgb(229, 231, 235) rgb(229, 231, 235)",
+        "rgb(37, 211, 102)",
+        "rgba(255, 255, 255, 0.03)",
+        "rgba(255, 255, 255, 0.34)",
+        "rgb(245, 245, 245)",
+        "rgb(3, 110, 151)",
+        "rgb(92, 111, 120)",
+        "rgba(255, 255, 255, 0.94)",
+        "rgba(0, 28, 42, 0.14)",
+        "rgb(130, 148, 156)",
+        "rgb(229, 231, 235) rgb(229, 231, 235) rgb(4, 168, 198)",
+        "rgba(0, 28, 42, 0.14) rgb(229, 231, 235) rgb(229, 231, 235)",
+        "rgb(249, 251, 251)",
+        "rgb(131, 147, 154)",
+        "rgb(184, 212, 220)",
+        "rgba(255, 255, 255, 0.42)",
+        "rgba(0, 28, 42, 0.58)",
+        "rgba(255, 255, 255, 0.38)",
+        "rgba(255, 255, 255, 0.88)",
+        "rgba(0, 28, 42, 0.13)"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Estruturas fortes.Obras que avançam."
+        },
+        {
+          "tag": "H2",
+          "text": "Tudo o que sua obraprecisa para avançar."
+        },
+        {
+          "tag": "H3",
+          "text": "Produtos"
+        },
+        {
+          "tag": "H3",
+          "text": "Construções"
+        },
+        {
+          "tag": "H3",
+          "text": "Serviços"
+        },
+        {
+          "tag": "H2",
+          "text": "Estruturas paradiferentes projetos."
+        },
+        {
+          "tag": "H3",
+          "text": "Galpões"
+        },
+        {
+          "tag": "H3",
+          "text": "Prédios"
+        },
+        {
+          "tag": "H3",
+          "text": "Casas"
+        },
+        {
+          "tag": "H3",
+          "text": "Do projeto especial à produção no canteiro."
+        },
+        {
+          "tag": "H2",
+          "text": "Estruturas queganham forma."
+        },
+        {
+          "tag": "H3",
+          "text": "Maquetes eletrônicas."
+        },
+        {
+          "tag": "H2",
+          "text": "Uma obra mais ágil,enxuta e eficiente."
+        },
+        {
+          "tag": "H3",
+          "text": "Redução de mão de obra"
+        },
+        {
+          "tag": "H3",
+          "text": "Menos tempo de obra"
+        },
+        {
+          "tag": "H3",
+          "text": "Redução do custo da obra"
+        },
+        {
+          "tag": "H3",
+          "text": "Menos desperdício"
+        },
+        {
+          "tag": "H3",
+          "text": "Maior margem de lucro"
+        },
+        {
+          "tag": "H2",
+          "text": "Precisão em cada peça.Confiança em toda a estrutura."
+        },
+        {
+          "tag": "H2",
+          "text": "Experiência que se transformaem estruturas sólidas."
+        },
+        {
+          "tag": "H2",
+          "text": "Vamos falar sobreo seu projeto?"
+        }
+      ],
+      "navigation": [
+        {
+          "text": "BluePremoldados",
+          "href": "https://www.bluepremoldados.com.br/#inicio"
+        },
+        {
+          "text": "Início",
+          "href": "https://www.bluepremoldados.com.br/#inicio"
+        },
+        {
+          "text": "Soluções",
+          "href": "https://www.bluepremoldados.com.br/#solucoes"
+        },
+        {
+          "text": "Diferenciais",
+          "href": "https://www.bluepremoldados.com.br/#diferenciais"
+        },
+        {
+          "text": "Empresa",
+          "href": "https://www.bluepremoldados.com.br/#empresa"
+        },
+        {
+          "text": "Galeria",
+          "href": "https://www.bluepremoldados.com.br/#galeria"
+        },
+        {
+          "text": "Contato",
+          "href": "https://www.bluepremoldados.com.br/#contato"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "https://wa.me/5584982007766?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fbrand-mark-white.png&w=48&q=75",
+          "alt": "",
+          "width": 48,
+          "height": 62,
+          "loading": "auto"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fhero-structure.webp&w=640&q=75",
+          "alt": "Estrutura editorial de concreto pré-moldado em montagem",
+          "width": 390,
+          "height": 219,
+          "loading": "auto"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fservice-galpoes.webp&w=640&q=75",
+          "alt": "Estrutura editorial de galpão pré-moldado em construção",
+          "width": 390,
+          "height": 487,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fservice-predios.webp&w=640&q=75",
+          "alt": "Estrutura editorial de prédio pré-moldado em construção",
+          "width": 390,
+          "height": 487,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fservice-casas.webp&w=640&q=75",
+          "alt": "Estrutura editorial de residência pré-moldada em construção",
+          "width": 390,
+          "height": 487,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-01.jpg&w=640&q=75",
+          "alt": "Montagem de estrutura pré-moldada com pilares, vigas, caminhão e equipe em obra",
+          "width": 350,
+          "height": 196,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Finstalacao-pilares-01.jpg&w=384&q=75",
+          "alt": "Pilares pré-moldados sendo posicionados com auxílio de caminhão munck",
+          "width": 350,
+          "height": 196,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-02.jpg&w=384&q=75",
+          "alt": "Estrutura pré-moldada com pilares, vigas e peça sendo içada em obra",
+          "width": 350,
+          "height": 196,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-urbana-01.jpg&w=3840&q=75",
+          "alt": "Conjunto de pilares e vigas pré-moldadas em área urbana",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-cobertura-01.jpg&w=3840&q=75",
+          "alt": "Edificação pré-moldada com cobertura e fechamento lateral em execução",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-urbana-02.jpg&w=3840&q=75",
+          "alt": "Estrutura de concreto pré-moldado com pilares e vigas entre edificações",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-estacionamento-01.jpg&w=3840&q=75",
+          "alt": "Estrutura pré-moldada utilizada em área coberta de estacionamento",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-local-01.jpg&w=3840&q=75",
+          "alt": "Pilares e vigas pré-moldadas instalados em canteiro de obra",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-01.jpg&w=640&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Finstalacao-pilares-01.jpg&w=384&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-02.jpg&w=384&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-urbana-01.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 66,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-cobertura-01.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-urbana-02.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-estacionamento-01.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Festrutura-local-01.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 49,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-01.jpg&w=384&q=75",
+          "alt": "Maquete eletrônica de estrutura pré-moldada multipavimentos com estacionamento",
+          "width": 350,
+          "height": 205,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-02.jpg&w=384&q=75",
+          "alt": "Vista lateral de maquete eletrônica com pilares, vigas e lajes pré-moldadas",
+          "width": 350,
+          "height": 213,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-03.jpg&w=384&q=75",
+          "alt": "Vista elevada de modelo estrutural multipavimentos em concreto pré-moldado",
+          "width": 350,
+          "height": 205,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-fachada.jpg&w=3840&q=75",
+          "alt": "Maquete eletrônica da fachada de edifício residencial com quatro pavimentos",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-perspectiva.jpg&w=3840&q=75",
+          "alt": "Perspectiva eletrônica de edifício residencial com varandas e terraço",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-estudo.jpg&w=3840&q=75",
+          "alt": "Modelo eletrônico de edifício residencial visto em perspectiva lateral",
+          "width": 0,
+          "height": 0,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-01.jpg&w=384&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 51,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-02.jpg&w=384&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 53,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-estrutura-multipavimentos-03.jpg&w=384&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 51,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-fachada.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 114,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-perspectiva.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 75,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmaquete-edificio-residencial-estudo.jpg&w=96&q=75",
+          "alt": "",
+          "width": 88,
+          "height": 68,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fgallery%2Fmontagem-estrutura-01.jpg&w=640&q=75",
+          "alt": "Equipe trabalhando na montagem de uma estrutura pré-moldada",
+          "width": 390,
+          "height": 219,
+          "loading": "lazy"
+        },
+        {
+          "src": "https://www.bluepremoldados.com.br/_next/image?url=%2Fimages%2Fbrand-mark-white.png&w=48&q=75",
+          "alt": "",
+          "width": 48,
+          "height": 62,
+          "loading": "auto"
+        }
+      ],
+      "backgroundImages": [
+        {
+          "element": "div.mobile-menu__grid",
+          "value": "linear-gradient(rgba(4, 168, 198, 0.5) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgba(4, 168, 198, 0.5) 1px, rgba(0, 0, 0, 0) 1px)"
+        },
+        {
+          "element": "div.hero__overlay",
+          "value": "linear-gradient(90deg, rgba(0, 28, 42, 0.78) 0%, rgba(0, 28, 42, 0.52) 43%, rgba(0, 28, 42, 0.04) 100%), linear-gradient(rgba(0, 0, 0, 0) 46%, rgba(0, 28, 42, 0.32))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "span.gallery-carousel__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.18), rgba(0, 0, 0, 0) 42%, rgba(0, 28, 42, 0.9))"
+        },
+        {
+          "element": "div.company-video__shade",
+          "value": "linear-gradient(rgba(0, 28, 42, 0.12), rgba(0, 0, 0, 0) 35%, rgba(0, 28, 42, 0.32))"
+        }
+      ],
+      "videos": [],
+      "favicons": [
+        {
+          "href": "https://www.bluepremoldados.com.br/icon.png?icon.3hl1bs5yudqdb.png",
+          "sizes": "512x512"
+        }
+      ],
+      "sections": [
+        {
+          "index": 0,
+          "tag": "section",
+          "id": "inicio",
+          "className": "hero hero--compact",
+          "top": 0,
+          "height": 886.84375,
+          "background": "rgb(0, 28, 42) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(255, 255, 255)",
+          "headings": [
+            "Estruturas fortes.Obras que avançam."
+          ],
+          "textSample": "Construção e peças pré-moldadasEstruturas fortes.Obras que avançam.Soluções pré-moldadas para projetos residenciais, comerciais e industriais na Paraíba e no Rio Grande do Norte.AtuaçãoParaíba e Rio Grande do NorteSedesParnamirim/RN e Cabedelo/PB Falar no WhatsAppConhecer soluções"
+        },
+        {
+          "index": 1,
+          "tag": "section",
+          "id": "solucoes",
+          "className": "solutions-overview section",
+          "top": 886.84375,
+          "height": 1636.140625,
+          "background": "rgb(245, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Tudo o que sua obraprecisa para avançar.",
+            "Produtos",
+            "Construções",
+            "Serviços"
+          ],
+          "textSample": "Nossas soluçõesTudo o que sua obraprecisa para avançar.Produtos, construções e serviços reunidos para atender projetos de diferentes escalas e necessidades.01ProdutosTubosPisos intertravadosMeio-fioMurosLixeiras e bancos pré-moldadosBlocosTesouras gigantesSolicitar orçamento 02ConstruçõesGalpõesPrédiosCasas pré-moldadasCondomínios logísticosSolicitar orçamento 03ServiçosTerceirização de peças pré-moldadasFabricação dentro da obraFormas para pré-moldadosCorte e dobra de aço — vergalhões e chapasS"
+        },
+        {
+          "index": 2,
+          "tag": "section",
+          "id": "construcoes",
+          "className": "services section",
+          "top": 2522.984375,
+          "height": 3673,
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Estruturas paradiferentes projetos.",
+            "Galpões",
+            "Prédios",
+            "Casas",
+            "Do projeto especial à produção no canteiro."
+          ],
+          "textSample": "SoluçõesEstruturas paradiferentes projetos.Construção especializada e componentes de concreto reunidos em uma solução objetiva.GalpõesEstruturas para operações comerciais, industriais, logísticas e agrícolas.Solicitar orçamento PrédiosSistemas pré-moldados para projetos que pedem organização e precisão.Solicitar orçamento CasasSoluções residenciais resistentes com processos construtivos mais eficientes.Solicitar orçamento Peças pré-moldadasComponentes para sustentar e organizar sua obra.Tubos de"
+        },
+        {
+          "index": 3,
+          "tag": "section",
+          "id": "galeria",
+          "className": "gallery section section--soft",
+          "top": 6195.984375,
+          "height": 1482.5,
+          "background": "rgb(245, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Estruturas queganham forma.",
+            "Maquetes eletrônicas."
+          ],
+          "textSample": "GaleriaEstruturas queganham forma.Registros de montagem, execução e aplicação das soluções pré-moldadas da Blue.Estrutura em execuçãoMontagem estruturalEtapa de montagemInstalação de pilaresExecução no canteiroEncaixe das peçasSistema pré-moldadoEstrutura em evoluçãoObra em andamentoCobertura e fechamentoEstrutura urbanaPrecisão construtivaCobertura pré-moldadaEstrutura aplicadaNova estruturaBase para avançar01 / 08Projetos em 3DMaquetes eletrônicas.Representações digitais de projetos estruturai"
+        },
+        {
+          "index": 4,
+          "tag": "section",
+          "id": "diferenciais",
+          "className": "benefits-compact dark-section section",
+          "top": 7678.484375,
+          "height": 1937.078125,
+          "background": "rgb(0, 28, 42) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(255, 255, 255)",
+          "headings": [
+            "Uma obra mais ágil,enxuta e eficiente.",
+            "Redução de mão de obra",
+            "Menos tempo de obra",
+            "Redução do custo da obra",
+            "Menos desperdício",
+            "Maior margem de lucro"
+          ],
+          "textSample": "Vantagens dos pré-moldadosUma obra mais ágil,enxuta e eficiente.A industrialização da estrutura reduz etapas no canteiro e cria condições para executar com mais controle.01Menos etapas no canteiroRedução de mão de obraA execução pré-moldada elimina etapas artesanais e reduz a necessidade de equipes durante a fase estrutural.02Até ≈ 50% no estruturalMenos tempo de obraCom projeto bem elaborado, uma fase estrutural prevista para seis meses pode ser concluída em cerca de três a quatro meses.03Custo"
+        },
+        {
+          "index": 5,
+          "tag": "section",
+          "id": "empresa",
+          "className": "about-compact section",
+          "top": 9615.5625,
+          "height": 1112.9375,
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Precisão em cada peça.Confiança em toda a estrutura."
+          ],
+          "textSample": "Sobre a BluePrecisão em cada peça.Confiança em toda a estrutura.Há mais de 15 anos, a Blue Premoldados atua na fabricação de peças, em construções e em serviços especializados para diferentes necessidades construtivas.Atendemos projetos na Paraíba e no Rio Grande do Norte com foco em qualidade, eficiência e atendimento próximo.Ver estruturas em obra"
+        },
+        {
+          "index": 6,
+          "tag": "section",
+          "id": "",
+          "className": "company-video section dark-section",
+          "top": 10728.5,
+          "height": 542.171875,
+          "background": "rgb(0, 28, 42) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(255, 255, 255)",
+          "headings": [
+            "Experiência que se transformaem estruturas sólidas."
+          ],
+          "textSample": "Conheça a BlueExperiência que se transformaem estruturas sólidas.Pausar"
+        },
+        {
+          "index": 7,
+          "tag": "section",
+          "id": "contato",
+          "className": "contact section",
+          "top": 11270.671875,
+          "height": 1393.890625,
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(12, 43, 57)",
+          "headings": [
+            "Vamos falar sobreo seu projeto?"
+          ],
+          "textSample": "Solicite um orçamentoVamos falar sobreo seu projeto?Envie os dados principais da obra. A equipe retornará para entender a necessidade e orientar os próximos passos.Atendimento diretoConversar pelo WhatsAppNome *Telefone ou WhatsApp *Cidade *Estado *SelecioneParaíbaRio Grande do NorteOutroTipo de projeto *Selecione uma opçãoGalpãoPrédioCasaPeças pré-moldadasPiso intertravadoOutroMensagem *Concordo com o uso dos dados para retorno desta solicitação, conforme a Política de Privacidade.Solicitar orç"
+        }
+      ],
+      "hasLenis": false
+    }
+  }
+}

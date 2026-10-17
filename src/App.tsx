@@ -13,6 +13,8 @@ import { ReferenceHeader } from './components/ReferenceHeader'
 import { ReferenceHero } from './components/ReferenceHero'
 import { TechnicalProjectsGallery } from './components/TechnicalProjectsGallery'
 
+const whatsappHref = `https://wa.me/${siteConfig.whatsappNumber}`
+
 type AnalyticsEvent = 'cta_click' | 'whatsapp_open'
 
 declare global {
@@ -127,7 +129,7 @@ function Management() {
           <ul className="benefit-list">
             {benefits.map((benefit) => <li key={benefit}><Check /> <span>{benefit}</span></li>)}
           </ul>
-          <a className="button button--light" href="#contato" onClick={() => trackEvent('cta_click', { location: 'management' })}>
+          <a className="button button--light" href={whatsappHref} target="_blank" rel="noreferrer" onClick={() => trackEvent('whatsapp_open', { location: 'management' })}>
             Conversar sobre minha obra <ArrowUpRight />
           </a>
         </div>
@@ -158,7 +160,7 @@ function Services() {
               </div>
               <h3>{service.title}</h3>
               <p>{service.description}</p>
-              {featured && <a href="#contato">Falar sobre gerenciamento <ArrowRight size={18} /></a>}
+              {featured && <a href={whatsappHref} target="_blank" rel="noreferrer" onClick={() => trackEvent('whatsapp_open', { location: 'service_card' })}>Falar sobre gerenciamento <ArrowRight size={18} /></a>}
             </article>
             )
           })}

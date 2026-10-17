@@ -48,7 +48,9 @@ export function ReferenceHero({ onCtaClick }: ReferenceHeroProps) {
           <div className="reference-hero__actions">
             <a
               className="reference-hero__cta reference-hero__cta--primary"
-              href="#contato"
+              href={`https://wa.me/${siteConfig.whatsappNumber}`}
+              target="_blank"
+              rel="noreferrer"
               onClick={() => onCtaClick?.('Quero avaliar minha obra')}
             >
               Quero avaliar minha obra

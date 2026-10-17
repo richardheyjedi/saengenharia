@@ -1,0 +1,222 @@
+{
+  "url": "https://www.bluepremoldados.com.br/",
+  "capturedAt": "2026-10-06T18:18:34.543Z",
+  "header": {
+    "trigger": 30,
+    "model": "scroll-driven",
+    "transition": "background-color 0.35s, box-shadow 0.35s, height 0.35s"
+  },
+  "desktop": {
+    "heroButtons": [
+      {
+        "text": " Falar no WhatsApp",
+        "before": {
+          "background": "rgb(37, 211, 102) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(255, 255, 255)",
+          "transform": "none",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "transition": "transform 0.25s, background-color 0.25s, color 0.25s, border-color 0.25s"
+        },
+        "after": {
+          "background": "rgb(31, 189, 90) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(255, 255, 255)",
+          "transform": "matrix(1, 0, 0, 1, 0, -1.99877)",
+          "border": "1px solid rgba(0, 0, 0, 0)",
+          "transition": "transform 0.25s, background-color 0.25s, color 0.25s, border-color 0.25s"
+        }
+      },
+      {
+        "text": "Conhecer soluções ",
+        "before": {
+          "background": "rgba(255, 255, 255, 0.03) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(255, 255, 255)",
+          "transform": "none",
+          "border": "1px solid rgba(255, 255, 255, 0.34)",
+          "transition": "transform 0.25s, background-color 0.25s, color 0.25s, border-color 0.25s"
+        },
+        "after": {
+          "background": "rgba(4, 168, 198, 0.12) none repeat scroll 0% 0% / auto padding-box border-box",
+          "color": "rgb(255, 255, 255)",
+          "transform": "matrix(1, 0, 0, 1, 0, -1.99877)",
+          "border": "1px solid rgba(4, 168, 198, 1)",
+          "transition": "transform 0.25s, background-color 0.25s, color 0.25s, border-color 0.25s"
+        }
+      }
+    ],
+    "galleryButtons": [
+      {
+        "ariaLabel": "Ampliar foto: Montagem estrutural",
+        "text": "Estrutura em execuçãoMontagem estrutural",
+        "className": "gallery-carousel__slide"
+      },
+      {
+        "ariaLabel": "Ampliar foto: Instalação de pilares",
+        "text": "Etapa de montagemInstalação de pilares",
+        "className": "gallery-carousel__slide"
+      },
+      {
+        "ariaLabel": "Ampliar foto: Encaixe das peças",
+        "text": "Execução no canteiroEncaixe das peças",
+        "className": "gallery-carousel__slide"
+      },
+      {
+        "ariaLabel": "Ampliar foto: Estrutura em evolução",
+        "text": "Sistema pré-moldadoEstrutura em evolução",
+        "className": "gallery-carousel__slide"
+      },
+      {
+        "ariaLabel": "Ampliar foto: Cobertura e fechamento",
+        "text": "Obra em andamentoCobertura e fechamento",
+        "className": "gallery-carousel__slide"
+      },
+      {
+        "ariaLabel": "Ampliar foto: Precisão construtiva",
+        "text": "Estrutura urbanaPrecisão construtiva",
+        "className": "gallery-carousel__slide"
+      },
+      {
+        "ariaLabel": "Ampliar foto: Estrutura aplicada",
+        "text": "Cobertura pré-moldadaEstrutura aplicada",
+        "className": "gallery-carousel__slide"
+      },
+      {
+        "ariaLabel": "Ampliar foto: Base para avançar",
+        "text": "Nova estruturaBase para avançar",
+        "className": "gallery-carousel__slide"
+      },
+      {
+        "ariaLabel": "Foto anterior",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Próxima foto",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Exibir foto 1: Montagem estrutural",
+        "text": "",
+        "className": "is-active"
+      },
+      {
+        "ariaLabel": "Exibir foto 2: Instalação de pilares",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Exibir foto 3: Encaixe das peças",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Exibir foto 4: Estrutura em evolução",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Exibir foto 5: Cobertura e fechamento",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Exibir foto 6: Precisão construtiva",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Exibir foto 7: Estrutura aplicada",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Exibir foto 8: Base para avançar",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Ampliar foto: Estrutura multipavimentos",
+        "text": "Maquete estrutural · Perspectiva 01Estrutura multipavimentos",
+        "className": "gallery-carousel__slide"
+      },
+      {
+        "ariaLabel": "Ampliar foto: Modulação estrutural",
+        "text": "Maquete estrutural · Perspectiva 02Modulação estrutural",
+        "className": "gallery-carousel__slide"
+      },
+      {
+        "ariaLabel": "Ampliar foto: Sistema estrutural",
+        "text": "Maquete estrutural · Perspectiva 03Sistema estrutural",
+        "className": "gallery-carousel__slide"
+      },
+      {
+        "ariaLabel": "Ampliar foto: Fachada residencial",
+        "text": "Maquete eletrônica · Vista frontalFachada residencial",
+        "className": "gallery-carousel__slide"
+      },
+      {
+        "ariaLabel": "Ampliar foto: Edifício residencial",
+        "text": "Maquete eletrônica · Perspectiva externaEdifício residencial",
+        "className": "gallery-carousel__slide"
+      },
+      {
+        "ariaLabel": "Ampliar foto: Estudo volumétrico",
+        "text": "Modelo eletrônico · Perspectiva estruturalEstudo volumétrico",
+        "className": "gallery-carousel__slide"
+      },
+      {
+        "ariaLabel": "Foto anterior",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Próxima foto",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Exibir foto 1: Estrutura multipavimentos",
+        "text": "",
+        "className": "is-active"
+      },
+      {
+        "ariaLabel": "Exibir foto 2: Modulação estrutural",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Exibir foto 3: Sistema estrutural",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Exibir foto 4: Fachada residencial",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Exibir foto 5: Edifício residencial",
+        "text": "",
+        "className": ""
+      },
+      {
+        "ariaLabel": "Exibir foto 6: Estudo volumétrico",
+        "text": "",
+        "className": ""
+      }
+    ]
+  },
+  "mobile": {
+    "headerButtons": [
+      {
+        "ariaLabel": "Abrir menu",
+        "className": "menu-button"
+      }
+    ],
+    "menuAfterClick": {
+      "className": "site-header is-solid",
+      "text": "BluePremoldadosInícioSoluçõesDiferenciaisEmpresaGaleriaContato WhatsApp",
+      "bodyOverflow": "hidden"
+    }
+  }
+}

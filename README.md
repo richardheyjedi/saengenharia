@@ -46,7 +46,6 @@ Os eventos `cta_click` e `whatsapp_open` são enviados para `window.dataLayer` q
 
 ## Informações pendentes
 
-- Número real de WhatsApp no formato internacional.
 - Domínio oficial para configurar canonical e `og:url`.
 - ID e ferramenta de analytics, se houver.
 - E-mail, Instagram ou outros canais oficiais, caso devam ser publicados.

@@ -1,7 +1,7 @@
 export const siteConfig = {
   company: 'S.A Engenharia',
   yearsInBusiness: 4,
-  whatsappNumber: '',
+  whatsappNumber: '5511927193130',
   navigation: [
     { label: 'Serviços', href: '#servicos' },
     { label: 'AutoCAD', href: '#projetos-autocad' },

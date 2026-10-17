@@ -57,7 +57,7 @@ export function ReferenceHeader() {
               {item.label}
             </a>
           ))}
-          <a className="button button--small nav__cta" href="#contato" onClick={closeMenu}>
+          <a className="button button--small nav__cta" href={`https://wa.me/${siteConfig.whatsappNumber}`} target="_blank" rel="noreferrer" onClick={() => { closeMenu() }}>
             Solicitar avaliação
             <ArrowUpRight size={17} />
           </a>
