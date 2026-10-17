@@ -1,5 +1,5 @@
-import { FormEvent, useEffect, useId, useState } from 'react'
-import { siteConfig, type ServiceInterest } from './config'
+import { useEffect } from 'react'
+import { siteConfig } from './config'
 import {
   ArrowRight,
   ArrowUpRight,
@@ -251,7 +251,7 @@ function Regions() {
         <div className="regions__copy" data-reveal>
           <span className="eyebrow"><span aria-hidden="true">—</span> Regiões de atendimento</span>
           <h2>Onde sua obra encontra nosso apoio.</h2>
-          <p>Informe sua cidade, o serviço desejado e a etapa atual da obra para avaliarmos sua demanda.</p>
+          <p>Fale diretamente pelo WhatsApp, conte o que sua obra precisa e avaliaremos a melhor forma de apoiar.</p>
           <a className="text-link" href="#contato">Apresentar minha necessidade <ArrowRight /></a>
         </div>
         <div className="region-list">
@@ -287,7 +287,7 @@ const faqs = [
   },
   {
     question: 'Como iniciar uma conversa sobre minha demanda?',
-    answer: 'Informe seu nome, cidade, serviço de interesse e, se desejar, um resumo da necessidade. Assim que o canal de WhatsApp estiver configurado, a página preparará a mensagem para você revisar e enviar.',
+    answer: 'Fale diretamente pelo WhatsApp e conte seu nome, cidade, serviço de interesse e um resumo da necessidade.',
   },
 ]
 
@@ -314,50 +314,7 @@ function FAQ() {
 }
 
 function Contact() {
-  const nameId = useId()
-  const cityId = useId()
-  const serviceId = useId()
-  const messageId = useId()
   const hasWhatsapp = /^\d{10,15}$/.test(siteConfig.whatsappNumber)
-  const [errors, setErrors] = useState<Record<string, string>>({})
-
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault()
-    if (!hasWhatsapp) return
-
-    const formData = new FormData(event.currentTarget)
-    const name = String(formData.get('name') ?? '').trim()
-    const city = String(formData.get('city') ?? '').trim()
-    const service = String(formData.get('service') ?? '').trim()
-    const nextErrors: Record<string, string> = {}
-    if (!name) nextErrors.name = 'Informe seu nome.'
-    if (!city) nextErrors.city = 'Informe sua cidade.'
-    if (!service) nextErrors.service = 'Selecione um serviço.'
-    setErrors(nextErrors)
-    if (Object.keys(nextErrors).length > 0) return
-
-    const optionalMessage = String(formData.get('message') ?? '').trim()
-    const message = [
-      'Olá, S.A Engenharia! Gostaria de conversar sobre uma demanda.',
-      '',
-      `Nome: ${name}`,
-      `Cidade: ${city}`,
-      `Serviço de interesse: ${service}`,
-      optionalMessage ? `Mensagem: ${optionalMessage}` : '',
-    ].filter(Boolean).join('\n')
-
-    trackEvent('whatsapp_open', { location: 'contact_form', service })
-    window.open(`https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer')
-  }
-
-  const serviceOptions: ServiceInterest[] = [
-    'Gerenciamento de obras',
-    'Vistoria de imóvel novo',
-    'Projetos',
-    'Consultoria de engenharia',
-    'Vistoria de imóveis',
-    'Acompanhamento de obras',
-  ]
 
   return (
     <section className="contact" id="contato">
@@ -368,40 +325,19 @@ function Contact() {
           <p>Apresente sua necessidade para iniciarmos uma conversa sobre o apoio mais adequado ao seu momento.</p>
           <div className="contact__note">
             <MessageIcon />
-            <span>{hasWhatsapp ? 'Ao continuar, o WhatsApp será aberto com sua mensagem pronta para revisão. Você ainda precisará enviá-la.' : 'O canal de WhatsApp está temporariamente indisponível enquanto o número de atendimento é configurado.'}</span>
+            <span>{hasWhatsapp ? 'A conversa será aberta diretamente no WhatsApp para você falar com a S.A Engenharia.' : 'O canal de WhatsApp está temporariamente indisponível enquanto o número de atendimento é configurado.'}</span>
           </div>
         </div>
 
-        <form className="contact-form" onSubmit={handleSubmit} noValidate data-reveal>
-          <div className="form-row">
-            <div className="field">
-              <label htmlFor={nameId}>Nome</label>
-              <input id={nameId} name="name" type="text" autoComplete="name" aria-invalid={Boolean(errors.name)} aria-describedby={errors.name ? `${nameId}-error` : undefined} />
-              {errors.name && <span className="field__error" id={`${nameId}-error`}>{errors.name}</span>}
-            </div>
-            <div className="field">
-              <label htmlFor={cityId}>Cidade</label>
-              <input id={cityId} name="city" type="text" autoComplete="address-level2" aria-invalid={Boolean(errors.city)} aria-describedby={errors.city ? `${cityId}-error` : undefined} />
-              {errors.city && <span className="field__error" id={`${cityId}-error`}>{errors.city}</span>}
-            </div>
-          </div>
-          <div className="field">
-            <label htmlFor={serviceId}>Serviço de interesse</label>
-            <select id={serviceId} name="service" defaultValue="" aria-invalid={Boolean(errors.service)} aria-describedby={errors.service ? `${serviceId}-error` : undefined}>
-              <option value="" disabled>Selecione uma opção</option>
-              {serviceOptions.map((option) => <option key={option} value={option}>{option}</option>)}
-            </select>
-            {errors.service && <span className="field__error" id={`${serviceId}-error`}>{errors.service}</span>}
-          </div>
-          <div className="field">
-            <label htmlFor={messageId}>Mensagem <span>(opcional)</span></label>
-            <textarea id={messageId} name="message" rows={4} placeholder="Conte brevemente sobre a etapa atual e sua necessidade." />
-          </div>
-          <button className="button button--contact" type="submit" disabled={!hasWhatsapp} aria-describedby={!hasWhatsapp ? 'whatsapp-status' : undefined}>
-            Continuar no WhatsApp <ArrowUpRight />
-          </button>
-          {!hasWhatsapp && <p className="form-status" id="whatsapp-status" role="status">Envio indisponível: aguardando a configuração do número de atendimento.</p>}
-        </form>
+        <div className="contact-cta" data-reveal>
+          <MessageIcon />
+          <h3>Vamos conversar sobre sua obra?</h3>
+          <p>Entre em contato diretamente pelo WhatsApp e explique sua necessidade.</p>
+          <a className="button button--contact" href={hasWhatsapp ? whatsappHref : undefined} target="_blank" rel="noreferrer" onClick={() => trackEvent('whatsapp_open', { location: 'contact_cta' })} aria-disabled={!hasWhatsapp}>
+            Falar diretamente no WhatsApp <ArrowUpRight />
+          </a>
+          {!hasWhatsapp && <p className="contact-status" id="whatsapp-status" role="status">Envio indisponível: aguardando a configuração do número de atendimento.</p>}
+        </div>
       </div>
     </section>
   )

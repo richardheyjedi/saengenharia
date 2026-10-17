@@ -1353,91 +1353,43 @@ a {
   font-size: 0.72rem;
 }
 
-.contact-form {
+.contact-cta {
+  display: flex;
+  min-height: 320px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
   padding: 38px;
   border-radius: 8px;
   background: var(--navy);
   color: var(--white);
 }
 
-.form-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
-}
-
-.field {
-  margin-bottom: 18px;
-}
-
-.field label {
-  display: block;
-  margin-bottom: 7px;
-  color: var(--cyan-light);
-  font-size: 0.68rem;
-  font-weight: 600;
-}
-
-.field label span {
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: 400;
-}
-
-.field input,
-.field select,
-.field textarea {
-  width: 100%;
-  min-height: 54px;
-  padding: 13px 14px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 4px;
-  outline: 0;
-  background: rgba(255, 255, 255, 0.045);
-  color: var(--white);
-  transition: border-color 180ms ease, box-shadow 180ms ease;
-}
-
-.field textarea {
-  min-height: 126px;
-  resize: vertical;
-}
-
-.field select option {
-  background: var(--navy);
-}
-
-.field input:focus,
-.field select:focus,
-.field textarea:focus {
-  border-color: var(--cyan);
-  box-shadow: 0 0 0 3px rgba(4, 168, 198, 0.12);
-}
-
-.field input::placeholder,
-.field textarea::placeholder {
-  color: #82a0ae;
-}
-
-.field__error {
-  display: block;
-  margin-top: 5px;
-  color: #ffb5a9;
-  font-size: 0.68rem;
-}
-
 .button--contact {
   width: 100%;
+  margin-top: 18px;
 }
 
-.button--contact:disabled {
-  cursor: not-allowed;
-  opacity: 0.58;
-  transform: none;
+.contact-cta > svg {
+  margin-bottom: 22px;
+  color: var(--yellow);
 }
 
-.form-status {
+.contact-cta h3 {
+  margin: 0;
+  color: var(--white);
+  font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+}
+
+.contact-cta > p {
   margin: 12px 0 0;
   color: #a8bcc5;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.contact-status {
+  color: #ffb5a9;
   font-size: 0.7rem;
 }
 
@@ -1905,12 +1857,7 @@ a {
     padding: 76px 0;
   }
 
-  .form-row {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-
-  .contact-form {
+  .contact-cta {
     padding: 26px 20px;
   }
 
@@ -2241,19 +2188,13 @@ a {
 }
 
 .management,
-.contact-form,
+.contact-cta,
 .contact__note {
   background: var(--navy-deep);
 }
 
 .contact {
   background: #f5f5f5;
-}
-
-.field input:focus,
-.field select:focus,
-.field textarea:focus {
-  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.14);
 }
 
 .footer {
